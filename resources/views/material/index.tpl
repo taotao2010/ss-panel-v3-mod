@@ -24,7 +24,7 @@
 								<div class="card">
 									<div class="card-main">
 										<div class="card-inner">
-											<p>请问您今天要来点兔子吗？</p>
+											<p>今天过上想过的生活了吗？</p>
 										</div>
 									</div>
 								</div>
