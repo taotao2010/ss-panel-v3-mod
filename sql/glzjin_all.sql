@@ -276,7 +276,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `last_day_t` bigint(20) NOT NULL DEFAULT '0',
   `sendDailyMail` int(11) NOT NULL DEFAULT '1',
   `class` int(11) NOT NULL DEFAULT '0',
-  `class_expire` datetime NOT NULL DEFAULT '1989-06-04 00:05:00',
+  `class_expire` datetime NOT NULL DEFAULT '2008-08-08 20:00:00',
   `expire_in` datetime NOT NULL DEFAULT '2099-06-04 00:05:00',
   `theme` text NOT NULL,
   `ga_token` text NOT NULL,
