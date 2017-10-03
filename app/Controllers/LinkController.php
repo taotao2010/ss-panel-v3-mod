@@ -296,7 +296,7 @@ class LinkController extends BaseController
 	"index" : 0,
 	"random" : false,
 	"sysProxyMode" : 0,
-	"shareOverLan" : false,
+	"shareOverLan" : true,
 	"bypassWhiteList" : false,
 	"localPort" : 1080,
 	"localAuthPassword" : "'.Tools::genRandomChar(26).'",
@@ -317,7 +317,7 @@ class LinkController extends BaseController
 	"authUser" : "",
 	"authPass" : "",
 	"autoBan" : false,
-	"sameHostForSameTarget" : true,
+	"sameHostForSameTarget" : false,
 	"keepVisitTime" : 180,
 	"isHideTips" : true,
 	"token" : {
