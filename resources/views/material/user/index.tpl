@@ -217,7 +217,7 @@
 													<div class="tab-pane fade" id="all_ss_android">
 														<p>1.请确保你的系统版本是4.4或更高<br>
 														2.下载<a href="https://gitee.com/ssr233/ss/raw/master/ss-android.apk">影梭客户端</a>，安装<br>
-														3.在手机自带浏览器中点击<a class="copy-text" data-clipboard-text="{$ss_url_all}">这个链接</a><br>
+														3.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>，选择“复制链接网址”<br>
 														4.打开影梭，点右上角倒数第二个加号按钮，选择“从剪贴板导入”<br>
 														5.选中一个节点，如“台湾节点1”<br>
 														6.点击这个节点最右侧的编辑按钮，滑动页面找到“路由”，选择“绕过局域网及中国大陆地址”，点右上角保存<br>
