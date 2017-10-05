@@ -100,16 +100,16 @@
 														{/if}
 													</div>
 													<div class="tab-pane fade" id="all_ssr_windows">
-														<p>1.下载<a href="http://git.oschina.net/ssr233/ssr/raw/master/ssr-win.7z">SSR客户端</a>，解压到一个文件夹，例如D:\SSR<br>2.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=0">专属配置文件</a>，复制到SSR文件夹里<br>3.Win7用户运行ShadowsocksR-dotnet2.0.exe，Win8和Win10用户运行ShadowsocksR-dotnet4.0.exe<br>4.下载<a href="http://git.oschina.net/wuand/wuand/raw/master/WuandCent.7z">百分浏览器午安定制版</a>，解压，运行chrome.exe即可<br>5.WinXP系统用户请参考<a href="http://git.oschina.net/ssr233/ssr233/blob/master/winxp_helper.md">WinXP用户使用说明</a><br>6.外服游戏用户请参考<a href="http://git.oschina.net/ssr233/ssr233/blob/master/sstap_tutorial.md">SSTap使用教程</a></p>
+														<p>1.下载<a href="https://gitee.com/ssr233/ssr/raw/master/ssr-win.7z">SSR客户端</a>，解压到一个文件夹，例如D:\SSR<br>2.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=0">专属配置文件</a>，复制到SSR文件夹里<br>3.Win7用户运行ShadowsocksR-dotnet2.0.exe，Win8和Win10用户运行ShadowsocksR-dotnet4.0.exe<br>4.下载<a href="https://gitee.com/wuand/wuand/raw/master/WuandCent.7z">百分浏览器午安定制版</a>，解压，运行chrome.exe即可<br>5.WinXP系统用户请参考<a href="https://gitee.com/ssr233/ssr233/blob/master/winxp_helper.md">WinXP用户使用说明</a><br>6.外服游戏用户请参考<a href="https://gitee.com/ssr233/ssr233/blob/master/sstap_tutorial.md">SSTap使用教程</a></p>
 													</div>
 													<div class="tab-pane fade" id="all_ssr_mac">
-														<p>1.请确保你的系统版本是10.11或更高<br>2.运行launcher里的“实用工具”文件夹下的“终端”，输入sudo spctl --master-disable，回车后输入你的系统密码，再回车<br>3.下载<a href="http://git.oschina.net/ssr233/ssr/raw/master/ssr-mac.dmg">SSR客户端</a>，安装并运行<br>4.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=0">专属配置文件</a><br>5.在右上角的纸飞机上点右键，点击“服务器”-“导入服务器配置文件”，选中你刚刚下载的gui-config.json文件<br>6.打开Safari浏览器即可</p>
+														<p>1.请确保你的系统版本是10.11或更高<br>2.运行launcher里的“实用工具”文件夹下的“终端”，输入sudo spctl --master-disable，回车后输入你的系统密码，再回车<br>3.下载<a href="https://gitee.com/ssr233/ssr/raw/master/ssr-mac.dmg">SSR客户端</a>，安装并运行<br>4.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=0">专属配置文件</a><br>5.在右上角的纸飞机上点右键，点击“服务器”-“导入服务器配置文件”，选中你刚刚下载的gui-config.json文件<br>6.打开Safari浏览器即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ssr_ios">
-														<p>1.请确保你的系统版本是9.0或更高<br>2.有外区账号的购买并下载<a href="https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8">Shadowrocket</a>，没有账号的可以使用<a href="http://git.oschina.net/ssr233/ssr233/blob/master/ios_share_account.md">这个公共账号</a><br>3.在设备上的Safari浏览器上点击<a href="{$ssr_url_all}">这个链接</a>，提示用Shadowrocket打开，同意<br>4.点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
+														<p>1.请确保你的系统版本是9.0或更高<br>2.有外区账号的购买并下载<a href="https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8">Shadowrocket</a>，没有账号的可以使用<a href="https://gitee.com/ssr233/ssr233/blob/master/ios_share_account.md">这个公共账号</a><br>3.在设备上的Safari浏览器上点击<a href="{$ssr_url_all}">这个链接</a>，提示用Shadowrocket打开，同意<br>4.点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
 													</div>
 													<div class="tab-pane fade" id="all_ssr_android">
-														<p>1.请确保你的系统版本是4.4或更高<br>2.下载<a href="http://git.oschina.net/ssr233/ssr/raw/master/ssr-android.apk">SSR客户端</a>，安装<br>3.在手机浏览器中长按<a href="{$ssr_url_all}">这个链接</a>，选择“复制链接网址”<br>4.打开SSR，点击左上角下拉箭头，进入服务器页面<br>5.点右下角的加号，选择“从剪贴板导入”，弹出的提示点确定<br>6.选中一个节点（如新加坡节点1）<br>7.滑动页面找到“路由”，选择“绕过局域网及中国大陆地址”<br>8.点击右上角的小飞机按钮，第一次运行会提示权限，同意即可</p>
+														<p>1.请确保你的系统版本是4.4或更高<br>2.下载<a href="https://gitee.com/ssr233/ssr/raw/master/ssr-android.apk">SSR客户端</a>，安装<br>3.在手机浏览器中长按<a href="{$ssr_url_all}">这个链接</a>，选择“复制链接网址”<br>4.打开SSR，点击左上角下拉箭头，进入服务器页面<br>5.点右下角的加号，选择“从剪贴板导入”，弹出的提示点确定<br>6.选中一个节点（如新加坡节点1）<br>7.滑动页面找到“路由”，选择“绕过局域网及中国大陆地址”<br>8.点击右上角的小飞机按钮，第一次运行会提示权限，同意即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ssr_router">
 														<p>路由器 刷入<a href="http://www.right.com.cn/forum/thread-161324-1-1.html">这个固件</a>，然后 SSH 登陆路由器，执行以下命令（导入普通端口）<br>
