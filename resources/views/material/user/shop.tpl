@@ -26,7 +26,7 @@
 						<div class="card-main">
 							<div class="card-inner">
 								<p>系统中所有商品的列表。您购买等级类的商品时有效期会从当前时间开始计算。</p>
-								<p>当前余额：{$user->money} 元</p>
+								<p>当前余额：{$user->money} SSR积分</p>
 							</div>
 						</div>
 					</div>
@@ -51,7 +51,7 @@
                                 </td>
                                 <td>#{$shop->id}</td>
                                 <td>{$shop->name}</td>
-								<td>{$shop->price} 元</td>
+								<td>{$shop->price} SSR积分</td>
                                 <td>{$shop->content()}</td>
 								{if $shop->auto_renew==0}
                                 <td>不能自动续费</td>

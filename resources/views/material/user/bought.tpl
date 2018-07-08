@@ -48,7 +48,7 @@
                                 <td>#{$shop->id}</td>
                                 <td>{$shop->shop()->name}</td>
 								<td>{$shop->shop()->content()}</td>
-								<td>{$shop->price} 元</td>
+								<td>{$shop->price} SSR积分</td>
 								{if $shop->renew==0}
                                 <td>不自动续费</td>
 								{else}
