@@ -60,9 +60,6 @@
 																<a class="waves-attach" data-toggle="tab" href="#all_ssr_winxp"><i class="icon icon-lg">desktop_windows</i>&nbsp;WinXP</a>
 															</li>
 															<li>
-																<a class="waves-attach" data-toggle="tab" href="#all_ssr_vpn"><i class="icon icon-lg">desktop_windows</i>&nbsp;外服游戏</a>
-															</li>
-															<li>
 																<a class="waves-attach" data-toggle="tab" href="#all_ssr_mac"><i class="icon icon-lg">laptop_mac</i>&nbsp;MacOS</a>
 															</li>
 															<li>
@@ -72,7 +69,16 @@
 																<a class="waves-attach" data-toggle="tab" href="#all_ssr_android"><i class="icon icon-lg">android</i>&nbsp;Android</a>
 															</li>
 															<li>
-																<a class="waves-attach" data-toggle="tab" href="#all_ssr_router"><i class="icon icon-lg">router</i>&nbsp;路由器</a>
+																<a class="waves-attach" data-toggle="tab" href="#all_ssr_linux"><i class="icon icon-lg">desktop_windows</i>&nbsp;Linux</a>
+															</li>
+															<li>
+																<a class="waves-attach" data-toggle="tab" href="#all_ssr_vpn"><i class="icon icon-lg">desktop_windows</i>&nbsp;外服游戏</a>
+															</li>
+															<li>
+																<a class="waves-attach" data-toggle="tab" href="#all_ssr_mtk"><i class="icon icon-lg">router</i>&nbsp;MTK路由器</a>
+															</li>
+															<li>
+																<a class="waves-attach" data-toggle="tab" href="#all_ssr_broadcom"><i class="icon icon-lg">router</i>&nbsp;博通路由器</a>
 															</li>
 														</ul>
 													</nav>
@@ -117,9 +123,6 @@
 													<div class="tab-pane fade" id="all_ssr_winxp">
 														<p>1.确保你系统安装了.net 2.0框架，没有的话<a href="https://download.microsoft.com/download/c/6/e/c6e88215-0178-4c6c-b5f3-158ff77b1f38/NetFx20SP2_x86.exe">下载</a>并安装<br>2.下载<a href="https://gitee.com/ssr233/ssr/raw/master/ssr-win.7z">SSR客户端</a>，解压到一个文件夹，例如D:\SSR<br>3.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=0">专属配置文件</a>，复制到刚才的SSR文件夹里<br>4.运行ShadowsocksR-dotnet2.0.exe<br>5.下载<a href="https://gitee.com/ssr233/browser/raw/master/360Chrome.7z">360极速浏览器233定制版</a>，解压，运行chrome.exe即可</p>
 													</div>
-													<div class="tab-pane fade" id="all_ssr_vpn">
-														<p>1.下载并安装<a href="http://git.oschina.net/ssr233/ssr/raw/master/SSTap-setup.exe">SSTap</a>，安装过程中要安装一个驱动<br>2.启动SSTap。点击代理旁边的加号，选择“通过SS/SSR链接批量添加代理”3.右键点击<a href="{$ssr_url_all}">这个链接</a>，选择“复制链接地址”，粘贴到对话框中<br>4.将“模式”改成“不代理中国IP”<br>5.点击“连接”即可</p>
-													</div>
 													<div class="tab-pane fade" id="all_ssr_mac">
 														<p>1.请确保你的系统版本是10.11或更高<br>2.运行launcher里的“实用工具”文件夹下的“终端”，输入sudo spctl --master-disable，回车后输入你的系统密码，再回车<br>3.下载<a href="https://gitee.com/ssr233/ssr/raw/master/ssr-mac.dmg">SSR客户端</a>，安装并运行<br>4.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=0">专属配置文件</a><br>5.在右上角的纸飞机上点右键，点击“服务器”-“导入服务器配置文件”，选中你刚刚下载的gui-config.json文件<br>6.打开Safari浏览器即可<br>7.如果无效的话重启一次电脑即可</p>
 													</div>
@@ -129,10 +132,18 @@
 													<div class="tab-pane fade" id="all_ssr_android">
 														<p>1.请确保你的系统版本是4.4或更高<br>2.下载<a href="https://gitee.com/ssr233/ssr/raw/master/ssr-android.apk">SSR客户端</a>，安装<br>3.在手机浏览器中长按<a href="{$ssr_url_all}">这个链接</a>，选择“复制链接网址”<br>4.打开SSR，点击左上角下拉箭头，进入服务器页面<br>5.点右下角的加号，选择“从剪贴板导入”，弹出的提示点确定<br>6.选中一个节点（如SSR节点1）<br>7.滑动页面找到“路由”，选择“绕过局域网及中国大陆地址”<br>8.点击右上角的小飞机按钮，第一次运行会提示权限，同意即可</p>
 													</div>
-													<div class="tab-pane fade" id="all_ssr_router">
-														<p>1.处理器为MTK系列的路由器（如极路由、小米mini等）需要刷入<a href="http://www.right.com.cn/forum/thread-161324-1-1.html">Padavan固件</a><br>2.处理器为博通系列的路由器（如华硕ac68u、网件R6400等）需要刷入<a href="http://koolshare.cn/forum-96-1.html">梅林固件</a><br>3.未完待续</p>
+													<div class="tab-pane fade" id="all_ssr_linux">
+														<p>1.Linux系统可以参考electron-ssr项目，传送门<br>2.使用方法参考Windows系统教程</p>
 													</div>
-
+													<div class="tab-pane fade" id="all_ssr_vpn">
+														<p>1.下载并安装<a href="http://git.oschina.net/ssr233/ssr/raw/master/SSTap-setup.exe">SSTap</a>，安装过程中要安装一个驱动<br>2.启动SSTap。点击代理旁边的加号，选择“通过SS/SSR链接批量添加代理”3.右键点击<a href="{$ssr_url_all}">这个链接</a>，选择“复制链接地址”，粘贴到对话框中<br>4.将“模式”改成“不代理中国IP”<br>5.点击“连接”即可</p>
+													</div>
+													<div class="tab-pane fade" id="all_ssr_mtk">
+														<p>1.确保路由器是可以刷入Padavan固件的型号，如极路由、小米mini等，推荐newifi mini<br>2.刷入<a href="http://www.right.com.cn/forum/thread-161324-1-1.html">Padavan固件</a>，刷机教程自行搜索<br>3.未完待续</p>
+													</div>
+													<div class="tab-pane fade" id="all_ssr_broadcom">
+														<p>1.确保路由器是可以刷入梅林固件的型号，如华硕ac68u、网件R6400等<br>2.刷入<a href="http://koolshare.cn/forum-96-1.html">梅林固件</a>，刷机教程自行搜索<br>3.<a href="https://github.com/koolshare/koolshare.github.io/raw/acelan_softcenter_ui/shadowsocks/shadowsocks.tar.gz">下载插件</a>到电脑<br>4.进入路由器后台，打开软件中心，点离线安装，选择下载的gz文件，上传并安装<br>5.未完待续</p>
+													</div>
 												</div>
 												<div class="tab-pane fade {if !$ssr_prefer}active in{/if}" id="all_ss">
 													<nav class="tab-nav margin-top-no">
