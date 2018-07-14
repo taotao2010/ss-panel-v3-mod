@@ -133,7 +133,7 @@
 														<p>1.请确保你的系统版本是4.4或更高<br>2.下载<a href="https://gitee.com/ssr233/ssr/raw/master/ssr-android.apk">SSR客户端</a>，安装<br>3.在手机浏览器中长按<a href="{$ssr_url_all}">这个链接</a>，选择“复制链接网址”<br>4.打开SSR，点击左上角下拉箭头，进入服务器页面<br>5.点右下角的加号，选择“从剪贴板导入”，弹出的提示点确定<br>6.选中一个节点（如SSR节点1）<br>7.滑动页面找到“路由”，选择“绕过局域网及中国大陆地址”<br>8.点击右上角的小飞机按钮，第一次运行会提示权限，同意即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ssr_linux">
-														<p>1.Linux系统可以参考electron-ssr项目，传送门<br>2.使用方法参考Windows系统教程</p>
+														<p>1.Linux系统可以参考electron-ssr项目，<a href="https://github.com/erguotou520/electron-ssr">传送门</a><br>2.使用方法参考Windows系统教程</p>
 													</div>
 													<div class="tab-pane fade" id="all_ssr_vpn">
 														<p>1.下载并安装<a href="http://git.oschina.net/ssr233/ssr/raw/master/SSTap-setup.exe">SSTap</a>，安装过程中要安装一个驱动<br>2.启动SSTap。点击代理旁边的加号，选择“通过SS/SSR链接批量添加代理”3.右键点击<a href="{$ssr_url_all}">这个链接</a>，选择“复制链接地址”，粘贴到对话框中<br>4.将“模式”改成“不代理中国IP”<br>5.点击“连接”即可</p>
