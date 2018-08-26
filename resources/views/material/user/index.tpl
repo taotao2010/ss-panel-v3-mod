@@ -115,22 +115,22 @@
 														{/if}
 													</div>
 													<div class="tab-pane fade" id="all_ssr_win10">
-														<p>1.下载<a href="https://gitee.com/ssr233/ssr/raw/master/ssr-win.7z">SSR客户端</a>，解压到一个文件夹，例如D:\SSR<br>2.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=0">专属配置文件</a>，复制到刚才的SSR文件夹里<br>3.运行ShadowsocksR-dotnet4.0.exe<br>4.下载<a href="https://gitee.com/ssr233/browser/raw/master/Cent233.7z">百分浏览器233定制版</a>，解压，运行chrome.exe即可</p>
+														<p>1.下载<a href="https://coding.net/u/ssr233/p/ssr/git/raw/master/ssr-win.7z">SSR客户端</a>，解压到一个文件夹，例如D:\SSR<br>2.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=0">专属配置文件</a>，复制到刚才的SSR文件夹里<br>3.运行ShadowsocksR-dotnet4.0.exe<br>4.下载<a href="https://coding.net/u/ssr233/p/browser/git/raw/master/Cent233.7z">百分浏览器233定制版</a>，解压，运行chrome.exe即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ssr_win7">
-														<p>1.下载<a href="https://gitee.com/ssr233/ssr/raw/master/ssr-win.7z">SSR客户端</a>，解压到一个文件夹，例如D:\SSR<br>2.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=0">专属配置文件</a>，复制到刚才的SSR文件夹里<br>3.运行ShadowsocksR-dotnet2.0.exe<br>4.下载<a href="https://gitee.com/ssr233/browser/raw/master/Cent233.7z">百分浏览器233定制版</a>，解压，运行chrome.exe即可</p>
+														<p>1.下载<a href="https://coding.net/u/ssr233/p/ssr/git/raw/master/ssr-win.7z">SSR客户端</a>，解压到一个文件夹，例如D:\SSR<br>2.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=0">专属配置文件</a>，复制到刚才的SSR文件夹里<br>3.运行ShadowsocksR-dotnet2.0.exe<br>4.下载<a href="https://coding.net/u/ssr233/p/browser/git/raw/master/Cent233.7z">百分浏览器233定制版</a>，解压，运行chrome.exe即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ssr_winxp">
-														<p>1.确保你系统安装了.net 2.0框架，没有的话<a href="https://download.microsoft.com/download/c/6/e/c6e88215-0178-4c6c-b5f3-158ff77b1f38/NetFx20SP2_x86.exe">下载</a>并安装<br>2.下载<a href="https://gitee.com/ssr233/ssr/raw/master/ssr-win.7z">SSR客户端</a>，解压到一个文件夹，例如D:\SSR<br>3.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=0">专属配置文件</a>，复制到刚才的SSR文件夹里<br>4.运行ShadowsocksR-dotnet2.0.exe<br>5.下载<a href="https://gitee.com/ssr233/browser/raw/master/360Chrome.7z">360极速浏览器233定制版</a>，解压，运行chrome.exe即可</p>
+														<p>1.确保你系统安装了.net 2.0框架，没有的话<a href="https://download.microsoft.com/download/c/6/e/c6e88215-0178-4c6c-b5f3-158ff77b1f38/NetFx20SP2_x86.exe">下载</a>并安装<br>2.下载<a href="https://coding.net/u/ssr233/p/ssr/git/raw/master/ssr-win.7z">SSR客户端</a>，解压到一个文件夹，例如D:\SSR<br>3.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=0">专属配置文件</a>，复制到刚才的SSR文件夹里<br>4.运行ShadowsocksR-dotnet2.0.exe<br>5.下载<a href="https://coding.net/u/ssr233/p/browser/git/raw/master/360Chrome.7z">360极速浏览器233定制版</a>，解压，运行chrome.exe即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ssr_mac">
-														<p>1.请确保你的系统版本是10.11或更高<br>2.运行launcher里的“实用工具”文件夹下的“终端”，输入sudo spctl --master-disable，回车后输入你的系统密码，再回车<br>3.下载<a href="https://gitee.com/ssr233/ssr/raw/master/ssr-mac.dmg">SSR客户端</a>，安装并运行<br>4.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=0">专属配置文件</a><br>5.在右上角的纸飞机上点右键，点击“服务器”-“导入服务器配置文件”，选中你刚刚下载的gui-config.json文件<br>6.打开Safari浏览器即可<br>7.如果无效的话重启一次电脑即可</p>
+														<p>1.请确保你的系统版本是10.11或更高<br>2.运行launcher里的“实用工具”文件夹下的“终端”，输入sudo spctl --master-disable，回车后输入你的系统密码，再回车<br>3.下载<a href="https://coding.net/u/ssr233/p/ssr/git/raw/master/ssr-mac.dmg">SSR客户端</a>，安装并运行<br>4.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=0">专属配置文件</a><br>5.在右上角的纸飞机上点右键，点击“服务器”-“导入服务器配置文件”，选中你刚刚下载的gui-config.json文件<br>6.打开Safari浏览器即可<br>7.如果无效的话重启一次电脑即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ssr_ios">
 														<p>1.请确保你的系统版本是9.0或更高<br>2.使用公共美区账号（账号：1009397260@qq.com，密码：Yexun1995Wuan!#）下载Shadowrocket，<a href="https://gitee.com/ssr233/ssr233/blob/master/ios_share_account.md">切换账号教程</a><br>3.在设备上的Safari浏览器上点击<a href="{$ssr_url_all}">这个链接</a>，提示用Shadowrocket打开，同意<br>4.点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
 													</div>
 													<div class="tab-pane fade" id="all_ssr_android">
-														<p>1.请确保你的系统版本是4.4或更高<br>2.下载<a href="https://gitee.com/ssr233/ssr/raw/master/ssr-android.apk">SSR客户端</a>，安装<br>3.在手机浏览器中长按<a href="{$ssr_url_all}">这个链接</a>，选择“复制链接网址”<br>4.打开SSR，点击左上角下拉箭头，进入服务器页面<br>5.点右下角的加号，选择“从剪贴板导入”，弹出的提示点确定<br>6.选中一个节点（如SSR节点1）<br>7.滑动页面找到“路由”，选择“绕过局域网及中国大陆地址”<br>8.点击右上角的小飞机按钮，第一次运行会提示权限，同意即可</p>
+														<p>1.请确保你的系统版本是4.4或更高<br>2.下载<a href="https://coding.net/u/ssr233/p/ssr/git/raw/master/ssr-android.apk">SSR客户端</a>，安装<br>3.在手机浏览器中长按<a href="{$ssr_url_all}">这个链接</a>，选择“复制链接网址”<br>4.打开SSR，点击左上角下拉箭头，进入服务器页面<br>5.点右下角的加号，选择“从剪贴板导入”，弹出的提示点确定<br>6.选中一个节点（如SSR节点1）<br>7.滑动页面找到“路由”，选择“绕过局域网及中国大陆地址”<br>8.点击右上角的小飞机按钮，第一次运行会提示权限，同意即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ssr_linux">
 														<p>1.Linux系统可以参考electron-ssr项目，<a href="https://github.com/erguotou520/electron-ssr">传送门</a><br>2.使用方法参考Windows系统教程</p>
