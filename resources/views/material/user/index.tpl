@@ -24,8 +24,7 @@
 							<div class="card">
 								<div class="card-main">
 									<div class="card-inner margin-bottom-no">
-										<p class="card-heading">系统中最新公告</p>
-										<p>其他公告请到<a href="/user/announcement"/>公告面板</a>查看。</p>
+										<p class="card-heading">最新公告</p>
 										{if $ann != null}
 										<p>{$ann->content}</p>
 										{/if}
@@ -38,7 +37,7 @@
 								<div class="card-main">
 									<div class="card-inner margin-bottom-no">
 										<p class="card-heading">各平台使用说明</p>
-										<p>您可以在这里查看您的连接信息。<br>同时，这里为您提供了自动化地配置文件生成，包含了所有SSR服务器的信息，方便您在诸多的服务器中快速添加，快速切换。</p>
+										<p>新用户请根据自己使用的设备类型配置你的SSR：</p>
 
 										<div class="card-inner">
 											<div class="tab-content">
