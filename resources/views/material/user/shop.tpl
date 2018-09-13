@@ -26,7 +26,7 @@
 						<div class="card-main">
 							<div class="card-inner">
 								<p>系统中所有商品的列表。您购买等级类的商品时有效期会从当前时间开始计算。</p>
-								<p>当前余额：{$user->money} SSR积分</p>
+								<p>当前233积分余额：{$user->money}</p>
 							</div>
 						</div>
 					</div>

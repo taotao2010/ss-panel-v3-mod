@@ -30,7 +30,7 @@
 								<div class="card-inner">
 									<div class="card-inner">
 										<p class="card-heading">充值码</p>
-										<p>当前余额：{$user->money} SSR积分</p>
+										<p>当前233积分余额：{$user->money}</p>
 										<div class="form-group form-group-label">
 											<label class="floating-label" for="code">充值码</label>
 											<input class="form-control" id="code" type="text">
@@ -96,7 +96,7 @@
 																<td>等级续期 - 等级{$code->type}</td>
 																{/if}
 																{if $code->type==-1}
-																<td>充值 {$code->number} SSR积分</td>
+																<td>充值 {$code->number} 233积分</td>
 																{/if}
 																{if $code->type==10001}
 																<td>充值 {$code->number} GB 流量</td>
