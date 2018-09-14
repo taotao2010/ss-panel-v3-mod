@@ -30,6 +30,7 @@
 								<div class="card-inner">
 									<div class="card-inner">
 										<p class="card-heading">充值码</p>
+										<p>充值码为活动发放，无法购买</p>
 										<p>当前233积分余额：{$user->money}</p>
 										<div class="form-group form-group-label">
 											<label class="floating-label" for="code">充值码</label>
