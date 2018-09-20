@@ -12,7 +12,7 @@
 	<main class="content">
 		<div class="content-header ui-content-header">
 			<div class="container">
-				<h1 class="content-heading">购买记录</h1>
+				<h1 class="content-heading">兑换记录</h1>
 			</div>
 		</div>
 		<div class="container">
@@ -22,7 +22,7 @@
 					<div class="card">
 						<div class="card-main">
 							<div class="card-inner">
-								<p>系统中您的购买记录。</p>
+								<p>系统中您的兑换记录。</p>
 							</div>
 						</div>
 					</div>

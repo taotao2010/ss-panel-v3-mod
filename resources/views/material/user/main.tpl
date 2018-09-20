@@ -307,18 +307,18 @@
 						
 							<li>
 								<a href="/user/shop">
-									<i class="icon icon-lg">shop</i>&nbsp;商店
+									<i class="icon icon-lg">shop</i>&nbsp;兑换套餐/流量
 								</a>
 							</li>
 							
-							<li><a href="/user/bought"><i class="icon icon-lg">shopping_cart</i>&nbsp;购买记录</a></li>
+							<li><a href="/user/bought"><i class="icon icon-lg">shopping_cart</i>&nbsp;兑换记录</a></li>
 							
 							
 
 
 							<li>
 								<a href="/user/code">
-									<i class="icon icon-lg">code</i>&nbsp;充值
+									<i class="icon icon-lg">code</i>&nbsp;活动码兑换
 								</a>
 							</li>
 						</ul>

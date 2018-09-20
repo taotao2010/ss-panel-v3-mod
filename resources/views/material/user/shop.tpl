@@ -25,7 +25,7 @@
 					<div class="card">
 						<div class="card-main">
 							<div class="card-inner">
-								<p>系统中所有商品的列表。您购买等级类的商品时有效期会从当前时间开始计算。</p>
+								<p>午安币可兑换等值233积分，详见首页公告</p>
 								<p>当前233积分余额：{$user->money}</p>
 							</div>
 						</div>
@@ -51,7 +51,7 @@
                                 </td>
                                 <td>#{$shop->id}</td>
                                 <td>{$shop->name}</td>
-								<td>{$shop->price} SSR积分</td>
+								<td>{$shop->price} 积分</td>
                                 <td>{$shop->content()}</td>
 								{if $shop->auto_renew==0}
                                 <td>不能自动续费</td>

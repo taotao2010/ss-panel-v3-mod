@@ -18,7 +18,7 @@
 	<main class="content">
 		<div class="content-header ui-content-header">
 			<div class="container">
-				<h1 class="content-heading">充值</h1>
+				<h1 class="content-heading">活动码兑换</h1>
 			</div>
 		</div>
 		<div class="container">
@@ -29,8 +29,8 @@
 							<div class="card-main">
 								<div class="card-inner">
 									<div class="card-inner">
-										<p class="card-heading">充值码</p>
-										<p>充值码为活动发放，无法购买</p>
+										<p class="card-heading">活动码</p>
+										<p>活动码为活动发放，无法购买</p>
 										<p>当前233积分余额：{$user->money}</p>
 										<div class="form-group form-group-label">
 											<label class="floating-label" for="code">充值码</label>
