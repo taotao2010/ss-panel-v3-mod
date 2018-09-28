@@ -135,7 +135,7 @@
 														<p>1.Linux系统可以参考electron-ssr项目，<a href="https://github.com/erguotou520/electron-ssr">传送门</a><br>2.使用方法参考Windows系统教程</p>
 													</div>
 													<div class="tab-pane fade" id="all_ssr_vpn">
-														<p>1.下载并安装<a href="https://coding.net/u/ssr233/p/ssr/git/raw/master/SSTap-setup.exe">SSTap</a>，安装过程中要安装一个驱动<br>2.启动SSTap。点击代理旁边的加号，选择“通过SS/SSR链接批量添加代理”3.右键点击<a href="{$ssr_url_all}">这个链接</a>，选择“复制链接地址”，粘贴到对话框中<br>4.将“模式”改成“不代理中国IP”<br>5.点击“连接”即可</p>
+														<p>1.下载并安装<a href="https://coding.net/u/ssr233/p/ssr/git/raw/master/SSTap-setup.exe">SSTap</a>，安装过程中要安装一个驱动<br>2.启动SSTap。点击代理旁边的加号，选择“通过SS/SSR链接批量添加代理”<br>3.右键点击<a href="{$ssr_url_all}">这个链接</a>，选择“复制链接地址”，粘贴到对话框中<br>4.将“模式”改成“不代理中国IP”<br>5.点击“连接”即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ssr_mtk">
 														<p>1.确保路由器是可以刷入Padavan固件的型号，如极路由、小米mini、newifi mini等<br>2.刷入<a href="http://www.right.com.cn/forum/thread-161324-1-1.html">Padavan固件</a>，刷机教程自行搜索<br>3.进入路由器后台，点首页中间第四个图标（纸飞机）<br>4.右键复制你的<a href="{$ssr_url_all}">SSR链接</a>，粘贴到“ssr_链接导入:”右侧的框里，点导入<br>5.下方出现SSR节点信息后，点右边的加号<br>6.在节点右侧的框里打勾，点下面的“应用主SS”，点一次“应用本页面设置”<br>7.页面上面的“代理类型”改成SSR，打开上面的开关，再点一次“应用本页面设置”</p>
