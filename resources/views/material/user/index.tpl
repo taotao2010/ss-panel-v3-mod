@@ -193,7 +193,12 @@
 														6.下载<a href="https://coding.net/u/ssr233/p/browser/git/raw/master/Cent233.7z">百分浏览器233定制版</a>，解压，运行chrome.exe即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_mac">
-														<p><a href="/ssr-download/ss-mac.zip">下载</a>，安装，然后下载<a href="/user/getpcconf?is_mu=0&is_ss=1">这个（普通端口）</a>或者<a href="/user/getpcconf?is_mu=1&is_ss=1">这个（单端口多用户）</a>，运行程序，小飞机上右键 服务器列表 子菜单 的 “导入服务器配置文件...” 导入这个文件，然后选择一个合适的服务器，更新一下PAC，然后开启系统代理即可上网。</p>
+														<p>1.请确保你的系统版本是10.11或更高<br>
+														2.运行launcher里的“实用工具”文件夹下的“终端”，输入sudo spctl --master-disable，回车后输入你的系统密码，再回车<br>
+														3.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/ShadowsocksX-NG.zip">SS客户端</a>，解压，拖到应用程序里<br>
+														4.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a><br>
+														5.运行ShdowsocksX-NG，在右上角的纸飞机上点右键，点击“服务器”-“导入服务器配置文件”，选中你刚刚下载的gui-config.json文件<br>
+														6.在右上角的纸飞机上点击“打开Shadowsocks”</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_ios">
 														<p>1.请确保你的系统版本是9.0或更高<br>
