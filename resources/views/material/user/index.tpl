@@ -185,7 +185,7 @@
 														{/if}
 													</div>
 													<div class="tab-pane fade" id="all_ss_windows">
-														<p>1.请确保你的系统版本是Win7 SP1、Win8.1、Win10这三个中的一个，如不是请更新到这几个系统之一<br>
+														<p>1.请确保你的系统版本是Win7 SP1、Win8.1、Win10这三个中的一个<br>
 														2.如果你的系统是Win10 1607以下（包括Win7 SP1、Win8.1、Win10 1507、Win10 1511），请下载并安装<a href="https://download.microsoft.com/download/F/9/4/F942F07D-F26F-4F30-B4E3-EBD54FABA377/NDP462-KB3151800-x86-x64-AllOS-ENU.exe">.net 4.6.2环境</a><br>
 														3.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/Shadowsocks.zip">SS客户端</a>，解压到一个文件夹，例如D:\SS<br>
 														4.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的SSR文件夹里<br>
@@ -199,8 +199,9 @@
 														<p>1.请确保你的系统版本是9.0或更高<br>
 														2.按照<a href="https://gitee.com/ssr233/ssr233/blob/master/ios_share_account.md">切换账号教程</a>切换AppStore账号为公共美区账号（账号：1009397260@qq.com，密码：Yexun1995Wuan!#）<br>
 														3.下载<a href="https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8">Shadowrocket</a><br>
-														4.在设备的Safari浏览器上点击<a href="{$ss_url_all}">这个链接</a>，提示用Shadowrocket打开，同意<br>
-														5.点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
+														4.在设备的Safari浏览器上长按<a href="{$ss_url_all}">这个链接</a>，点击“拷贝”<br>
+														5.打开Shadowrocket，会自动提示“将复制配置添加到您的列表”，点击“添加”<br>
+														6.点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_android">
 														<p>1.请确保你的系统版本是4.4或更高<br>
