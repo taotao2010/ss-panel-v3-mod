@@ -25,7 +25,6 @@
 								<div class="card-main">
 									<div class="card-inner margin-bottom-no">
 										<p class="card-heading">系统中最新公告</p>
-										<p>其他公告请到<a href="/user/announcement"/>公告面板</a>查看。</p>
 										{if $ann != null}
 										<p>{$ann->content}</p>
 										{/if}
@@ -37,8 +36,8 @@
 							<div class="card">
 								<div class="card-main">
 									<div class="card-inner margin-bottom-no">
-										<p class="card-heading">连接信息 以及 All-in-One(快速配置指导)</p>
-										<p>您可以在这里查看您的连接信息。<br>同时，这里为您提供了自动化地配置文件生成，包含了所有 Shadowsocks 服务器的信息，方便您在诸多的服务器中快速添加，快速切换。</p>
+										<p class="card-heading">各平台使用说明</p>
+										<p>新用户请根据自己使用的设备类型配置你的SS：</p>
 										
 										<div class="card-inner">
 											<div class="tab-content">
@@ -186,19 +185,31 @@
 														{/if}
 													</div>
 													<div class="tab-pane fade" id="all_ss_windows">
-														<p><a href="/ssr-download/ss-win.zip">下载</a>，解压，运行程序，然后您有两种方式导入所有节点<br>
-															(1)下载<a href="/user/getpcconf?is_mu=0&is_ss=1">这个（普通端口）</a>，放到小飞机的目录下，然后打开小飞机。<br>
-															(2)点击<a class="copy-text" data-clipboard-text="{$ss_url_all_win}">这里（普通端口）</a>, 然后右键小飞机 -- 从剪贴板导入 URL<br>
+														<p>1.请确保你的系统版本是Win7 SP1、Win8.1、Win10这三个中的一个，如不是请更新到这几个系统之一<br>
+														2.如果你的系统是Win10 1607以下（包括Win7 SP1、Win8.1、Win10 1507、Win10 1511），请下载并安装<a href="https://download.microsoft.com/download/F/9/4/F942F07D-F26F-4F30-B4E3-EBD54FABA377/NDP462-KB3151800-x86-x64-AllOS-ENU.exe">.net 4.6.2环境</a><br>
+														3.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/Shadowsocks.zip">SS客户端</a>，解压到一个文件夹，例如D:\SS<br>
+														4.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的SSR文件夹里<br>
+														5.运行Shadowsocks.exe<br>
+														6.下载<a href="https://coding.net/u/ssr233/p/browser/git/raw/master/360Chrome.7z">360极速浏览器233定制版</a>，解压，运行chrome.exe即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_mac">
 														<p><a href="/ssr-download/ss-mac.zip">下载</a>，安装，然后下载<a href="/user/getpcconf?is_mu=0&is_ss=1">这个（普通端口）</a>或者<a href="/user/getpcconf?is_mu=1&is_ss=1">这个（单端口多用户）</a>，运行程序，小飞机上右键 服务器列表 子菜单 的 “导入服务器配置文件...” 导入这个文件，然后选择一个合适的服务器，更新一下PAC，然后开启系统代理即可上网。</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_ios">
-														<p>推荐下载<a href="https://itunes.apple.com/cn/app/shadowrocket/id932747118?mt=8">Shadowrocket</a>，然后在 Safari 中点击<a href="{$ss_url_all}">这个（普通端口）</a>或者<a href="{$ss_url_all_mu}">这个（单端口多用户）</a>，然后点击确定，就可以批量添加节点。</p>
-														<p>iOS 下载<a href="/link/{$ios_token}?is_ss=1">这个（普通端口）</a>或者<a href="/link/{$ios_token}?is_ss=1&is_mu=1">这个（单端口多用户）</a>，导入到 Surge 中，然后就可以随意切换服务器上网了。</p>
+														<p>1.请确保你的系统版本是9.0或更高<br>
+														2.按照<a href="https://gitee.com/ssr233/ssr233/blob/master/ios_share_account.md">切换账号教程</a>切换AppStore账号为公共美区账号（账号：1009397260@qq.com，密码：Yexun1995Wuan!#）<br>
+														3.下载<a href="https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8">Shadowrocket</a><br>
+														4.在设备的Safari浏览器上点击<a href="{$ss_url_all}">这个链接</a>，提示用Shadowrocket打开，同意<br>
+														5.点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_android">
-														<p><a href="/ssr-download/ss-android.apk">下载</a>，再<a href="/ssr-download/ss-android-obfs.apk">下载</a>，然后安装，然后在手机上点击<a class="copy-text" data-clipboard-text="{$ss_url_all}">这个链接（普通端口）</a>或者<a class="copy-text" data-clipboard-text="{$ss_url_all_mu}">这个链接（单端口多用户端口）</a>复制到剪贴板，打开 Shadowsocks 客户端，选择从剪贴板导入，然后选择一个节点，设置一下路由为绕过大陆，点击飞机就可以上网了。</p>
+														<p>1.请确保你的系统版本是4.4或更高<br>
+														2.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/shadowsocks.apk">SS客户端</a>，安装<br>
+														3.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>，选择“复制链接网址”<br>
+														4.打开安装好的Shadowsocks，点右上角的加号，选择“从剪贴板导入”
+														5.选中一个节点（如SS节点1）<br>
+														6.点击节点最右侧的编辑按钮，找到“路由”，选择“绕过局域网及中国大陆地址”，点右上角的对勾保存（此步骤每个节点都需要操作一次）<br>
+														7.点击主界面右下方的开关，第一次需要授权VPN权限</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_router">
 														<p>路由器 刷入<a href="http://www.right.com.cn/forum/thread-161324-1-1.html">这个固件</a>，然后 SSH 登陆路由器，执行以下命令（导入普通端口）<br>
