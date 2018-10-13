@@ -37,11 +37,11 @@
 								<div class="card-main">
 									<div class="card-inner margin-bottom-no">
 										<p class="card-heading">各平台使用说明</p>
-										<p>新用户请根据自己使用的设备类型配置你的SS：</p>
+										<p>新用户请根据自己使用的设备类型配置你的SSR：</p>
 
 										<div class="card-inner">
 											<div class="tab-content">
-												<div class="tab-pane fade {if !$ssr_prefer}active in{/if}" id="all_ss">
+												<div class="tab-pane fade" id="all_ss">
 													<nav class="tab-nav margin-top-no">
 														<ul class="nav nav-list">
 															<li class="active">
