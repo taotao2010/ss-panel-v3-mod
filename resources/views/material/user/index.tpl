@@ -24,7 +24,7 @@
 							<div class="card">
 								<div class="card-main">
 									<div class="card-inner margin-bottom-no">
-										<p class="card-heading">系统中最新公告</p>
+										<p class="card-heading">最新公告</p>
 										{if $ann != null}
 										<p>{$ann->content}</p>
 										{/if}
@@ -190,7 +190,7 @@
 														3.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/Shadowsocks.zip">SS客户端</a>，解压到一个文件夹，例如D:\SS<br>
 														4.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的SSR文件夹里<br>
 														5.运行Shadowsocks.exe<br>
-														6.下载<a href="https://coding.net/u/ssr233/p/browser/git/raw/master/360Chrome.7z">360极速浏览器233定制版</a>，解压，运行chrome.exe即可</p>
+														6.下载<a href="https://coding.net/u/ssr233/p/browser/git/raw/master/Cent233.7z">百分浏览器233定制版</a>，解压，运行chrome.exe即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_mac">
 														<p><a href="/ssr-download/ss-mac.zip">下载</a>，安装，然后下载<a href="/user/getpcconf?is_mu=0&is_ss=1">这个（普通端口）</a>或者<a href="/user/getpcconf?is_mu=1&is_ss=1">这个（单端口多用户）</a>，运行程序，小飞机上右键 服务器列表 子菜单 的 “导入服务器配置文件...” 导入这个文件，然后选择一个合适的服务器，更新一下PAC，然后开启系统代理即可上网。</p>
@@ -324,14 +324,14 @@
 							<div class="card">
 								<div class="card-main">
 									<div class="card-inner margin-bottom-no">
-										<p class="card-heading">续命获取流量</p>
-											<p>流量不会重置，可以通过续命获取流量。</p>
+										<p class="card-heading">签到获取流量</p>
+											<p>流量不会重置，可以通过签到获取流量。</p>
 
-											<p>每次续命可以获取{$config['checkinMin']}~{$config['checkinMax']}MB流量。</p>
+											<p>每次签到可以获取{$config['checkinMin']}~{$config['checkinMax']}MB流量。</p>
 
-											<p>每天可以续命一次。您可以点击按钮或者摇动手机来续命。</p>
+											<p>每天可以签到一次。您可以点击按钮或者摇动手机来签到。</p>
 
-											<p>上次续命时间：<code>{$user->lastCheckInTime()}</code></p>
+											<p>上次签到时间：<code>{$user->lastCheckInTime()}</code></p>
 
 											<p id="checkin-msg"></p>
 
@@ -344,10 +344,10 @@
 										<div class="card-action-btn pull-left">
 											{if $user->isAbleToCheckin() }
 												<p id="checkin-btn">
-													<button id="checkin" class="btn btn-brand btn-flat waves-attach"><span class="icon">check</span>&nbsp;续命</button>
+													<button id="checkin" class="btn btn-brand btn-flat waves-attach"><span class="icon">check</span>&nbsp;签到</button>
 												</p>
 											{else}
-												<p><a class="btn btn-brand disabled btn-flat waves-attach" href="#"><span class="icon">check</span>&nbsp;不能续命</a></p>
+												<p><a class="btn btn-brand disabled btn-flat waves-attach" href="#"><span class="icon">check</span>&nbsp;不能签到</a></p>
 											{/if}
 										</div>
 									</div>
