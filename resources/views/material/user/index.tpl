@@ -151,9 +151,6 @@
 															<li>
 																<a class="waves-attach" data-toggle="tab" href="#all_ss_android"><i class="icon icon-lg">android</i>&nbsp;Android</a>
 															</li>
-															<li>
-																<a class="waves-attach" data-toggle="tab" href="#all_ss_router"><i class="icon icon-lg">router</i>&nbsp;路由器</a>
-															</li>
 														</ul>
 													</nav>
 													<div class="tab-pane fade active in" id="all_ss_info">
