@@ -432,7 +432,7 @@ class UserController extends BaseController
 
                 if (isset($temp[1])) {
                     if (strpos($node_method[$temp[0]], $temp[1])===false) {
-                        $node_method[$temp[0]]=$node_method[$temp[0]]."|".$temp[1];
+                        $node_method[$temp[0]]=$node_method[$temp[0]]." ".$temp[1];
                     }
                 }
 
@@ -1429,7 +1429,7 @@ class UserController extends BaseController
         }
 
         if (!$this->user->isAbleToCheckin()) {
-            $res['msg'] = "您似乎已经签到过了...";
+            $res['msg'] = "您似乎已经续命过了...";
             $res['ret'] = 1;
             return $response->getBody()->write(json_encode($res));
         }
