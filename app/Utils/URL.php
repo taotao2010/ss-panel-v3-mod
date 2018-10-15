@@ -239,7 +239,7 @@ class URL
         $items = URL::getAllItems($user, $is_mu, $is_ss);
         $return_url = '';
         foreach($items as $item) {
-            $return_url .= URL::getItemUrl($item, $is_ss).($enter == 0 ? '|');
+            $return_url .= URL::getItemUrl($item, $is_ss).($enter == 0 ? ' ' : "\n");
         }
         return $return_url;
     }
