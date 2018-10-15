@@ -1746,7 +1746,7 @@ FINAL,Proxy';
             }
         }
 
-        $bash .= "nvram set rt_ssnum_x=".$count."\n";
+        $bash .= "nvram set rt_ssnum_x=".$count."|";
 
         return $bash;
     }
