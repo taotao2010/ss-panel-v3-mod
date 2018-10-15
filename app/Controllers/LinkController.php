@@ -296,7 +296,7 @@ class LinkController extends BaseController
 	"index" : 0,
 	"random" : false,
 	"sysProxyMode" : 0,
-	"shareOverLan" : true,
+	"shareOverLan" : false,
 	"bypassWhiteList" : false,
 	"localPort" : 1080,
 	"localAuthPassword" : "'.Tools::genRandomChar(26).'",
@@ -317,7 +317,7 @@ class LinkController extends BaseController
 	"authUser" : "",
 	"authPass" : "",
 	"autoBan" : false,
-	"sameHostForSameTarget" : false,
+	"sameHostForSameTarget" : true,
 	"keepVisitTime" : 180,
 	"isHideTips" : true,
 	"token" : {
@@ -1746,7 +1746,7 @@ FINAL,Proxy';
             }
         }
 
-        $bash .= "nvram set rt_ssnum_x=".$count."|";
+        $bash .= "nvram set rt_ssnum_x=".$count."\n";
 
         return $bash;
     }
