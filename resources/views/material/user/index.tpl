@@ -201,9 +201,10 @@
 														<p>1.请确保你的系统版本是9.0或更高<br>
 														2.按照<a href="https://gitee.com/ssr233/ssr233/blob/master/ios_share_account.md">切换账号教程</a>切换AppStore账号为公共美区账号（账号：1009397260@qq.com，密码：Yexun1995Wuan!#）<br>
 														3.下载<a href="https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8">Shadowrocket</a><br>
-														4.在设备的Safari浏览器上长按<a href="{$ss_url_all}">这个链接</a>，点击“拷贝”<br>
-														5.打开Shadowrocket，会自动提示“将复制配置添加到您的列表”，点击“添加”<br>
-														6.点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次<br><a href="/link/{$ios_token}?is_ss=1">test1</a><br>test2:<code>{$baseUrl}/link/{$ssr_sub_token}?mu=0</code></p>
+														4.在设备的Safari浏览器上长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>，点击“拷贝”<br>
+														5.打开Shadowrocket，进入底部的“配置”菜单，点击“添加配置”，把刚才复制的配置粘贴进去，点击“下载”<br>
+														6.点击底部的“远程文件”上的链接，点击“使用配置”，提示“保存代理节点”，点击“保存”<br>
+														7.回到首页，点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_android">
 														<p>1.请确保你的系统版本是4.4或更高<br>
