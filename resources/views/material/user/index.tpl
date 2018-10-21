@@ -253,7 +253,7 @@
 														<p>1.确保路由器是可以刷入Padavan固件的型号，如极路由、小米mini、newifi mini等<br>
 														2.刷入<a href="http://www.right.com.cn/forum/thread-161324-1-1.html">Padavan固件</a>，刷机教程自行搜索<br>3.进入路由器后台，点首页中间第四个图标（纸飞机）<br>
 														4.在下方的主服务器处填写：ss-1.ssr233.com，如果用其它节点就填具体的数字<br>
-														5.服务器端口填{$user->port}，服务器密码填{$user->passwd}，加密方式选择aes-256-gcm<br>6.页面上方的“代理类型”确保是SS，打开顶上的开关，点一次“应用本页面设置”</p>
+														5.服务器端口填 {$user->port} ，服务器密码填 {$user->passwd} ，加密方式选择 aes-256-gcm<br>6.页面上方的“代理类型”确保是SS，打开顶上的开关，点一次“应用本页面设置”</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_broadcom">
 														<p>1.确保路由器是可以刷入梅林固件的型号，如华硕ac68u、网件R6400等<br>
