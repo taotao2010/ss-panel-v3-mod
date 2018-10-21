@@ -143,13 +143,28 @@
 																<a class="waves-attach" data-toggle="tab" href="#all_ss_windows"><i class="icon icon-lg">desktop_windows</i>&nbsp;Windows</a>
 															</li>
 															<li>
-																<a class="waves-attach" data-toggle="tab" href="#all_ss_mac"><i class="icon icon-lg">laptop_mac</i>&nbsp;MacOS</a>
+																<a class="waves-attach" data-toggle="tab" href="#all_ss_android"><i class="icon icon-lg">android</i>&nbsp;Android</a>
 															</li>
 															<li>
 																<a class="waves-attach" data-toggle="tab" href="#all_ss_ios"><i class="icon icon-lg">laptop_mac</i>&nbsp;iOS</a>
 															</li>
 															<li>
-																<a class="waves-attach" data-toggle="tab" href="#all_ss_android"><i class="icon icon-lg">android</i>&nbsp;Android</a>
+																<a class="waves-attach" data-toggle="tab" href="#all_ss_mac"><i class="icon icon-lg">laptop_mac</i>&nbsp;MacOS</a>
+															</li>
+															<li>
+																<a class="waves-attach" data-toggle="tab" href="#all_ss_android_bak"><i class="icon icon-lg">android</i>&nbsp;Android（备用）</a>
+															</li>
+															<li>
+																<a class="waves-attach" data-toggle="tab" href="#all_ssr_linux"><i class="icon icon-lg">desktop_windows</i>&nbsp;Linux</a>
+															</li>
+															<li>
+																<a class="waves-attach" data-toggle="tab" href="#all_ssr_vpn"><i class="icon icon-lg">desktop_windows</i>&nbsp;外服游戏</a>
+															</li>
+															<li>
+																<a class="waves-attach" data-toggle="tab" href="#all_ssr_mtk"><i class="icon icon-lg">router</i>&nbsp;低端路由器</a>
+															</li>
+															<li>
+																<a class="waves-attach" data-toggle="tab" href="#all_ssr_broadcom"><i class="icon icon-lg">router</i>&nbsp;高端路由器</a>
 															</li>
 														</ul>
 													</nav>
@@ -207,7 +222,7 @@
 														7.回到首页，点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_android">
-														<p>1.请确保你的系统版本是4.4或更高<br>
+														<p>1.请确保你的系统版本是5.0或更高（4.1~4.4系统或者其它无法使用的机型请参考下方的备用方案）<br>
 														2.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/shadowsocks.apk">SS客户端</a>，安装<br>
 														3.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>，选择“复制链接网址”<br>
 														4.打开安装好的Shadowsocks，点右上角的加号，选择“从剪贴板导入”<br>
@@ -215,12 +230,37 @@
 														6.点击节点最右侧的编辑按钮，找到“路由”，选择“绕过局域网及中国大陆地址”，点右上角的对勾保存（此步骤每个节点都需要操作一次）<br>
 														7.点击主界面右下方的开关，第一次需要授权VPN权限</p>
 													</div>
-													<div class="tab-pane fade" id="all_ss_router">
-														<p>路由器 刷入<a href="http://www.right.com.cn/forum/thread-161324-1-1.html">这个固件</a>，然后 SSH 登陆路由器，执行以下命令（导入普通端口）<br>
-														<code>wget -O- {$baseUrl}/link/{$router_token}?is_ss=1 | bash && echo -e "\n0 */3 * * * wget -O- {$baseUrl}/link/{$router_token}?is_ss=1 | bash\n">> /etc/storage/cron/crontabs/admin && killall crond && crond </code><br>
-														或者这个单端口多用户的<br>
-														<code>wget -O- {$baseUrl}/link/{$router_token_without_mu}?is_ss=1 | bash && echo -e "\n0 */3 * * * wget -O- {$baseUrl}/link/{$router_token_without_mu}?is_ss=1 | bash\n">> /etc/storage/cron/crontabs/admin && killall crond && crond </code><br>
-														执行完毕以后就可以到路由器的设置面板里随意选择 Shadowsocks 服务器进行连接了。</p>
+													<div class="tab-pane fade" id="all_ss_android_bak">
+														<p>1.请确保你的系统版本是4.1或更高<br>
+														2.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/bifrostv.apk">BifrostV客户端</a>，安装<br>
+														3.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>，选择“复制链接网址”<br>
+														4.打开安装好的BifrostV，点右上角的加号，选择“导入”-“从剪贴板导入”<br>
+														5.选中一个节点（如SS节点1）<br>
+														6.点击主界面右下方的开关，第一次需要授权VPN权限</p>
+													</div>
+													<div class="tab-pane fade" id="all_ss_linux">
+														<p>1.Linux系统可以使用shadowsocks-qt5，<a href="https://github.com/shadowsocks/shadowsocks-qt5/releases">传送门</a><br>
+														2.使用方法参考<a href="https://github.com/shadowsocks/shadowsocks-qt5/wiki">官方文档</a></p>
+													</div>
+													<div class="tab-pane fade" id="all_ss_vpn">
+														<p>1.下载并安装<a href="https://coding.net/u/ssr233/p/ssr/git/raw/master/SSTap-setup.exe">SSTap</a>，安装过程中要安装一个驱动<br>
+														2.启动SSTap。点击代理旁边的加号，选择“通过SS/SSR链接批量添加代理”<br>
+														3.右键点击<a href="{$ss_url_all}">这个链接</a>，选择“复制链接地址”，粘贴到对话框中<br>
+														4.将“模式”改成“不代理中国IP”<br>
+														5.点击“连接”即可</p>
+													</div>
+													<div class="tab-pane fade" id="all_ss_mtk">
+														<p>1.确保路由器是可以刷入Padavan固件的型号，如极路由、小米mini、newifi mini等<br>
+														2.刷入<a href="http://www.right.com.cn/forum/thread-161324-1-1.html">Padavan固件</a>，刷机教程自行搜索<br>3.进入路由器后台，点首页中间第四个图标（纸飞机）<br>
+														4.在下方的主服务器处填写：ss-1.ssr233.com，如果用其它节点就填具体的数字<br>
+														5.服务器端口填{$user->port}，服务器密码填{$user->passwd}，加密方式选择aes-256-gcm<br>6.页面上方的“代理类型”确保是SS，打开顶上的开关，点一次“应用本页面设置”</p>
+													</div>
+													<div class="tab-pane fade" id="all_ss_broadcom">
+														<p>1.确保路由器是可以刷入梅林固件的型号，如华硕ac68u、网件R6400等<br>
+														2.刷入<a href="http://koolshare.cn/forum-96-1.html">梅林固件</a>，刷机教程自行搜索<br>
+														3.<a href="https://github.com/koolshare/koolshare.github.io/raw/acelan_softcenter_ui/shadowsocks/shadowsocks.tar.gz">下载插件</a>到电脑<br>
+														4.进入路由器后台，打开软件中心，点离线安装，选择下载的gz文件，上传并安装<br>
+														5.未完待续</p>
 													</div>
 												</div>
 											</div>
