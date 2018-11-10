@@ -222,7 +222,7 @@
 														7.回到首页，点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_android">
-														<p>1.请确保你的系统版本是5.0或更高（4.1~4.4系统或者其它无法使用的机型请参考下方的备用方案）<br>
+														<p>1.请确保你的系统版本是5.0或更高（4.1~4.4系统或者其它无法使用的机型请参考上方的备用方案）<br>
 														2.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/shadowsocks.apk">SS客户端</a>，安装<br>
 														3.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>，选择“复制链接网址”<br>
 														4.打开安装好的Shadowsocks，点右上角的加号，选择“从剪贴板导入”<br>
@@ -251,14 +251,16 @@
 													</div>
 													<div class="tab-pane fade" id="all_ss_mtk">
 														<p>1.确保路由器是可以刷入Padavan固件的型号，如极路由、小米mini、newifi mini等<br>
-														2.刷入<a href="http://www.right.com.cn/forum/thread-161324-1-1.html">Padavan固件</a>，刷机教程自行搜索<br>3.进入路由器后台，点首页中间第四个图标（纸飞机）<br>
+														2.刷入<a href="http://www.right.com.cn/forum/thread-161324-1-1.html">Padavan固件</a>，刷机教程自行搜索<br>
+														3.进入路由器后台，点首页中间第四个图标（纸飞机）<br>
 														4.在下方的主服务器处填写：ss-1.ssr233.com，如果用其它节点就填具体的数字<br>
-														5.服务器端口填写：{$user->port}，服务器密码填写：{$user->passwd}，加密方式选择：aes-256-gcm<br>6.页面上方的“代理类型”确保是SS，打开顶上的开关，点一次“应用本页面设置”</p>
+														5.服务器端口填写：{$user->port}，服务器密码填写：{$user->passwd}，加密方式选择：aes-256-gcm<br>
+														6.页面上方的“代理类型”确保是SS，打开顶上的开关，点一次“应用本页面设置”</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_broadcom">
 														<p>1.确保路由器是可以刷入梅林固件的型号，如华硕ac68u、网件R6400等<br>
 														2.刷入<a href="http://koolshare.cn/forum-96-1.html">梅林固件</a>，刷机教程自行搜索<br>
-														3.<a href="https://github.com/koolshare/koolshare.github.io/raw/acelan_softcenter_ui/shadowsocks/shadowsocks.tar.gz">下载插件</a>到电脑<br>
+														3.下载<a href="https://github.com/hq450/fancyss">SS插件</a>到电脑<br>
 														4.进入路由器后台，打开软件中心，点离线安装，选择下载的gz文件，上传并安装<br>
 														5.未完待续</p>
 													</div>
