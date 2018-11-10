@@ -158,13 +158,13 @@
 																<a class="waves-attach" data-toggle="tab" href="#all_ss_linux"><i class="icon icon-lg">desktop_windows</i>&nbsp;Linux</a>
 															</li>
 															<li>
-																<a class="waves-attach" data-toggle="tab" href="#all_ss_vpn"><i class="icon icon-lg">desktop_windows</i>&nbsp;外服游戏</a>
-															</li>
-															<li>
 																<a class="waves-attach" data-toggle="tab" href="#all_ss_mtk"><i class="icon icon-lg">router</i>&nbsp;低端路由器</a>
 															</li>
 															<li>
 																<a class="waves-attach" data-toggle="tab" href="#all_ss_broadcom"><i class="icon icon-lg">router</i>&nbsp;高端路由器</a>
+															</li>
+															<li>
+																<a class="waves-attach" data-toggle="tab" href="#all_ss_vpn"><i class="icon icon-lg">desktop_windows</i>&nbsp;外服游戏</a>
 															</li>
 														</ul>
 													</nav>
