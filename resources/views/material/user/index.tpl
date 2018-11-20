@@ -214,7 +214,7 @@
 													</div>
 													<div class="tab-pane fade" id="all_ss_ios">
 														<p>1.请确保你的系统版本是9.0或更高<br>
-														2.按照<a href="https://gitee.com/ssr233/ssr233/blob/master/ios_share_account.md">切换账号教程</a>切换AppStore账号为公共美区账号（账号：1009397260@qq.com，密码：Yexun1995Wuan!#）<br>
+														2.按照<a href="https://gitee.com/ssr233/ssr233/blob/master/ios_share_account.md">切换账号教程</a>切换AppStore账号为公共美区账号（账号：1009397260@qq.com，密码：Wuan1018）。切记登录的是AppStore而不是iCloud，否则会泄露隐私甚至锁机！<br>
 														3.下载<a href="https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8">Shadowrocket</a><br>
 														4.在设备的Safari浏览器上长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>，点击“拷贝”<br>
 														5.打开Shadowrocket，进入底部的“配置”菜单，点击“添加配置”，把刚才复制的配置粘贴进去，点击“下载”<br>
