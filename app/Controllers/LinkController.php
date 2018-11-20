@@ -390,6 +390,18 @@ DOMAIN-SUFFIX,taobao.com,DIRECT
 DOMAIN-SUFFIX,qq.com,DIRECT
 GEOIP,CN,DIRECT
 
+# proxy
+DOMAIN-KEYWORD,google,Proxy,force-remote-dns
+DOMAIN-KEYWORD,youtube,Proxy,force-remote-dns
+DOMAIN-KEYWORD,facebook,Proxy,force-remote-dns
+DOMAIN-SUFFIX,fbcdn.net,Proxy,force-remote-dns
+DOMAIN-KEYWORD,instagram,Proxy,force-remote-dns
+DOMAIN-KEYWORD,whatsapp,Proxy,force-remote-dns
+DOMAIN-KEYWORD,twitter,Proxy,force-remote-dns
+DOMAIN-SUFFIX,twimg.com,Proxy,force-remote-dns
+DOMAIN-KEYWORD,tumblr,Proxy,force-remote-dns
+DOMAIN-KEYWORD,github,Proxy,force-remote-dns
+DOMAIN-KEYWORD,telegram,Proxy,force-remote-dns
 FINAL,PROXY
 
 [URL Rewrite]
