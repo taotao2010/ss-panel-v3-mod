@@ -364,7 +364,7 @@ class LinkController extends BaseController
 
         $items = URL::getAllItems($user, $is_mu, $is_ss);
         foreach($items as $item) {
-            $proxy_group .= $item['remark'].' = custom,'.$item['address'].','.$item['port'].','.$item['method'].','.$item['passwd'].','.Config::get('baseUrl').'/downloads/SSEncrypt.module'.URL::getSurgeObfs($item)."\n";
+            $proxy_group .= $item['remark'].' = custom,'.$item['address'].','.$item['port'].','.$item['method'].','.$item['passwd'].','https://raw.githubusercontent.com/ConnersHua/SSEncrypt/master/SSEncrypt.module'.URL::getSurgeObfs($item)."\n";
             $proxy_name .= ",".$item['remark'];
         }
 
@@ -406,7 +406,7 @@ FINAL,PROXY
 
 [URL Rewrite]
 
-^http://(www.)?google.cn https://www.google.com header';
+^http://(www.)?google.cn http://www.google.com header';
     }
 
     private static function GetSurge($passwd, $method, $server, $port, $defined)
