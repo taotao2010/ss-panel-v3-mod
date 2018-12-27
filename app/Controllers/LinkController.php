@@ -386,11 +386,6 @@ JP = select, SS节点4
 [Rule]
 
 # adblock
-DOMAIN-SUFFIX,doubleclick.net,REJECT
-DOMAIN-SUFFIX,googleadservices.com,REJECT
-DOMAIN-SUFFIX,googleadsserving.cn,REJECT
-DOMAIN-SUFFIX,googlesyndication.com,REJECT
-DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,irs01.com,REJECT
 DOMAIN-SUFFIX,bugly.qq.com,REJECT
 DOMAIN-SUFFIX,e.qq.com,REJECT
