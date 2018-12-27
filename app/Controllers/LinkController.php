@@ -368,8 +368,7 @@ class LinkController extends BaseController
             $proxy_name .= ",".$item['remark'];
         }
 
-        return '
-# update: 2018.10.15
+        return '# update: 2018.12.27
 		
 [General]
 
@@ -380,6 +379,9 @@ dns-server = 119.29.29.29, 223.5.5.5, 114.114.114.114
 
 [Proxy]
 '.$proxy_group.'
+[Proxy Group]
+PROXY = select, SS节点1
+JP = select, SS节点4
 
 [Rule]
 
@@ -388,20 +390,26 @@ DOMAIN-SUFFIX,baidu.com,DIRECT
 DOMAIN-SUFFIX,alipay.com,DIRECT
 DOMAIN-SUFFIX,taobao.com,DIRECT
 DOMAIN-SUFFIX,qq.com,DIRECT
+DOMAIN-SUFFIX,weibo.com,DIRECT
 GEOIP,CN,DIRECT
 
+# jp
+DOMAIN-KEYWORD,dmm,JP
+DOMAIN-KEYWORD,scholar,JP
+GEOIP,JP,JP
+
 # proxy
-DOMAIN-KEYWORD,google,Proxy,force-remote-dns
-DOMAIN-KEYWORD,youtube,Proxy,force-remote-dns
-DOMAIN-KEYWORD,facebook,Proxy,force-remote-dns
-DOMAIN-SUFFIX,fbcdn.net,Proxy,force-remote-dns
-DOMAIN-KEYWORD,instagram,Proxy,force-remote-dns
-DOMAIN-KEYWORD,whatsapp,Proxy,force-remote-dns
-DOMAIN-KEYWORD,twitter,Proxy,force-remote-dns
-DOMAIN-SUFFIX,twimg.com,Proxy,force-remote-dns
-DOMAIN-KEYWORD,tumblr,Proxy,force-remote-dns
-DOMAIN-KEYWORD,github,Proxy,force-remote-dns
-DOMAIN-KEYWORD,telegram,Proxy,force-remote-dns
+DOMAIN-KEYWORD,google,PROXY,force-remote-dns
+DOMAIN-KEYWORD,youtube,PROXY,force-remote-dns
+DOMAIN-KEYWORD,facebook,PROXY,force-remote-dns
+DOMAIN-SUFFIX,fbcdn.net,PROXY,force-remote-dns
+DOMAIN-KEYWORD,instagram,PROXY,force-remote-dns
+DOMAIN-KEYWORD,whatsapp,PROXY,force-remote-dns
+DOMAIN-KEYWORD,twitter,PROXY,force-remote-dns
+DOMAIN-SUFFIX,twimg.com,PROXY,force-remote-dns
+DOMAIN-KEYWORD,tumblr,PROXY,force-remote-dns
+DOMAIN-KEYWORD,github,PROXY,force-remote-dns
+DOMAIN-KEYWORD,telegram,PROXY,force-remote-dns
 FINAL,PROXY
 
 [URL Rewrite]
