@@ -379,10 +379,6 @@ dns-server = 119.29.29.29, 223.5.5.5, 114.114.114.114
 
 [Proxy]
 '.$proxy_group.'
-[Proxy Group]
-PROXY = select, SS节点1
-JP = select, SS节点4
-
 [Rule]
 
 # direct
@@ -394,9 +390,9 @@ DOMAIN-SUFFIX,weibo.com,DIRECT
 GEOIP,CN,DIRECT
 
 # jp
-DOMAIN-KEYWORD,dmm,JP
-DOMAIN-KEYWORD,scholar,JP
-GEOIP,JP,JP
+DOMAIN-KEYWORD,dmm,SS节点4
+DOMAIN-KEYWORD,scholar,SS节点4
+GEOIP,JP,SS节点4
 
 # proxy
 DOMAIN-KEYWORD,google,PROXY,force-remote-dns
