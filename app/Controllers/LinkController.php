@@ -386,16 +386,35 @@ JP = select, SS节点4
 [Rule]
 
 # adblock
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN-SUFFIX,googleadservices.com,REJECT
+DOMAIN-SUFFIX,googleadsserving.cn,REJECT
+DOMAIN-SUFFIX,googlesyndication.com,REJECT
+DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,irs01.com,REJECT
-DOMAIN,mtrace.qq.com,REJECT
+DOMAIN-SUFFIX,bugly.qq.com,REJECT
+DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
 DOMAIN-SUFFIX,l.qq.com,REJECT
+DOMAIN-SUFFIX,rqd.qq.com,REJECT
+DOMAIN,btrace.qq.com,REJECT
+DOMAIN,mtrace.qq.com,REJECT
+DOMAIN,oth.eve.mdt.qq.com,REJECT
+DOMAIN,pgdt.gtimg.cn,REJECT
+DOMAIN,pingma.qq.com,REJECT
+DOMAIN,pingtcss.qq.com,REJECT
+DOMAIN,splashqqlive.gtimg.com,REJECT
+DOMAIN,tajs.qq.com,REJECT
 DOMAIN,ifacelog.iqiyi.com,REJECT
+DOMAIN,mbdlog.iqiyi.com,REJECT
+DOMAIN,msg.71.am,REJECT
 DOMAIN,msg.qy.net,REJECT
 IP-CIDR,101.227.97.240/32,REJECT,no-resolve
 IP-CIDR,101.227.200.11/32,REJECT,no-resolve
 IP-CIDR,101.227.200.28/32,REJECT,no-resolve
 IP-CIDR,124.192.153.42/32,REJECT,no-resolve
 DOMAIN-SUFFIX,atm.youku.com,REJECT
+DOMAIN,ad.mobile.youku.com,REJECT
 DOMAIN,iyes.youku.com,REJECT
 
 # direct
@@ -429,8 +448,13 @@ FINAL,PROXY
 
 ^https?:\/\/(www.)?g\.cn https://www.google.com 302
 ^https?:\/\/(www.)?google\.cn https://www.google.com 302
+^https?:\/\/btrace.qq.com - reject
+^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
+^https?:\/\/.+\.mp4\?cdncode=.+&guid= - reject
 ^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo - reject
 ^https?:\/\/t7z\.cupid\.iqiyi\.com\/mixer\? - reject
+^https?:\/\/.+\.mp4\?ccode=0902 - reject
+^https?:\/\/.+\.mp4\?sid= - reject
 ';
 
     }
