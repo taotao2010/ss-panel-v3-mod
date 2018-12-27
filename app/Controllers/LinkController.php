@@ -379,6 +379,10 @@ dns-server = 119.29.29.29, 223.5.5.5, 114.114.114.114
 
 [Proxy]
 '.$proxy_group.'
+[Proxy Group]
+PROXY = select, SS节点1
+JP = select, SS节点4
+
 [Rule]
 
 # direct
