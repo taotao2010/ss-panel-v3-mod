@@ -408,6 +408,16 @@ IP-CIDR,101.227.97.240/32,REJECT,no-resolve
 IP-CIDR,101.227.200.11/32,REJECT,no-resolve
 IP-CIDR,101.227.200.28/32,REJECT,no-resolve
 IP-CIDR,124.192.153.42/32,REJECT,no-resolve
+DOMAIN,acs4baichuan.m.taobao.com,REJECT
+DOMAIN,adash.m.taobao.com,REJECT
+DOMAIN,adash.man.aliyuncs.com,REJECT
+DOMAIN,adashbc.ut.taobao.com,REJECT
+DOMAIN,adash-c.ut.taobao.com,REJECT
+DOMAIN,adashxgc.ut.taobao.com,REJECT
+DOMAIN,amdc.m.taobao.com,REJECT
+DOMAIN,apoll.m.taobao.com,REJECT
+DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
+DOMAIN,tunion-api.m.taobao.com,REJECT
 DOMAIN-SUFFIX,atm.youku.com,REJECT
 DOMAIN,ad.mobile.youku.com,REJECT
 DOMAIN,iyes.youku.com,REJECT
