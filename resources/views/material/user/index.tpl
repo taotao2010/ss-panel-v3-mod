@@ -208,13 +208,13 @@
 														3.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/Shadowsocks.zip">SS客户端</a>，解压到一个文件夹，例如D:\SS<br>
 														4.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的SS文件夹里<br>
 														5.运行Shadowsocks.exe<br>
-														6.下载<a href="https://www.lanzous.com/b535524/">百分浏览器233定制版</a>（网盘密码:gim9），解压，运行chrome.exe即可</p>
+														6.下载<a href="https://coding.net/u/ssr233/p/browser/git/raw/master/Cent233.7z">百分浏览器233定制版</a>，解压，运行chrome.exe即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_v2ray">
-														<p>1.下载<a href="https://www.lanzous.com/b539874/">v2ray</a>（网盘密码:39q4），解压。<br>
-														2.用记事本或者其它代码编辑器打开其中的config.json，将其中出现的几处port后面的19493修改为{$user->port}，将其中出现的几处password后面的dOKV00修改为{$user->passwd}，保存文件<br>
+														<p>1.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/v2ray.7z">v2ray</a>，解压。<br>
+														2.用记事本或者其它代码编辑器打开其中的config.json，将其中出现的几处port后面的19493修改为 {$user->port} ，将其中出现的几处password后面的dOKV00修改为 {$user->passwd} ，保存文件<br>
 														3.运行v2ray.exe，如果你讨厌窗口，也可以运行wv2ray.exe<br>
-														4.下载<a href="https://www.lanzous.com/b535524/">百分浏览器233定制版</a>（网盘密码:gim9），解压，运行chrome.exe<br>
+														4.下载<a href="https://coding.net/u/ssr233/p/browser/git/raw/master/Cent233.7z">百分浏览器233定制版</a>，解压，运行chrome.exe<br>
 														5.点击百分浏览器右上角的圆圈图标，选择v2ray模式即可<br>
 														6.XP系统或者想使用其他浏览器的，可以将系统代理设置为127.0.0.1，端口为2019</p>
 													</div>
@@ -253,7 +253,7 @@
 														6.点击主界面右下方的开关，第一次需要授权VPN权限</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_surfboard">
-														<p>1.下载<a href="https://www.lanzous.com/b539921/">Surfboard客户端</a>（网盘密码:gdsw），安装<br>
+														<p>1.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/surfboard.apk">Surfboard客户端</a>，安装<br>
 														2.在手机浏览器中长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
 														3.运行Surfboard，账号为wuand0001@gmail.com，密码为12345678<br>
 														4.进入底部第三个Profile标签，点加号，选择第一个Download from url，里面会出现刚才复制的那个地址，点DOWNLOAD<br>
