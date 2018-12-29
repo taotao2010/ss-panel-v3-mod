@@ -166,6 +166,12 @@
 															<li>
 																<a class="waves-attach" data-toggle="tab" href="#all_ss_vpn"><i class="icon icon-lg">desktop_windows</i>&nbsp;外服游戏</a>
 															</li>
+															<li>
+																<a class="waves-attach" data-toggle="tab" href="#all_ss_v2ray"><i class="icon icon-lg">desktop_windows</i>&nbsp;Windows（备用）</a>
+															</li>
+															<li>
+																<a class="waves-attach" data-toggle="tab" href="#all_ss_surfboard"><i class="icon icon-lg">android</i>&nbsp;Android（进阶）</a>
+															</li>
 														</ul>
 													</nav>
 													<div class="tab-pane fade active in" id="all_ss_info">
@@ -197,12 +203,20 @@
 														{/if}
 													</div>
 													<div class="tab-pane fade" id="all_ss_windows">
-														<p>1.请确保你的系统版本是Win7 SP1、Win8.1、Win10这三个中的一个<br>
+														<p>1.请确保你的系统版本是Win7 SP1、Win8.1、Win10这三个中的一个（其它系统或者安装.net框架遇到问题的请参考上方的备用方案）<br>
 														2.如果你的系统是Win10 1607以下（包括Win7 SP1、Win8.1、Win10 1507、Win10 1511），请下载并安装<a href="https://download.microsoft.com/download/F/9/4/F942F07D-F26F-4F30-B4E3-EBD54FABA377/NDP462-KB3151800-x86-x64-AllOS-ENU.exe">.net 4.6.2环境</a><br>
 														3.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/Shadowsocks.zip">SS客户端</a>，解压到一个文件夹，例如D:\SS<br>
 														4.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的SS文件夹里<br>
 														5.运行Shadowsocks.exe<br>
-														6.下载<a href="https://coding.net/u/ssr233/p/browser/git/raw/master/Cent233.7z">百分浏览器233定制版</a>，解压，运行chrome.exe即可</p>
+														6.下载<a href="https://www.lanzous.com/b535524/">百分浏览器233定制版</a>（网盘密码:gim9），解压，运行chrome.exe即可</p>
+													</div>
+													<div class="tab-pane fade" id="all_ss_v2ray">
+														<p>1.下载<a href="https://www.lanzous.com/b539874/">v2ray</a>（网盘密码:39q4），解压。<br>
+														2.用记事本或者其它代码编辑器打开其中的config.json，将其中出现的几处port后面的19493修改为{$user->port}，将其中出现的几处password后面的dOKV00修改为{$user->passwd}，保存文件<br>
+														3.运行v2ray.exe，如果你讨厌窗口，也可以运行wv2ray.exe<br>
+														4.下载<a href="https://www.lanzous.com/b535524/">百分浏览器233定制版</a>（网盘密码:gim9），解压，运行chrome.exe<br>
+														5.点击百分浏览器右上角的圆圈图标，选择v2ray模式即可<br>
+														6.XP系统或者想使用其他浏览器的，可以将系统代理设置为127.0.0.1，端口为2019</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_mac">
 														<p>1.请确保你的系统版本是10.11或更高<br>
@@ -237,6 +251,14 @@
 														4.打开安装好的BifrostV，点右上角的加号，选择“导入”-“从剪贴板导入”<br>
 														5.选中一个节点（如SS节点1）<br>
 														6.点击主界面右下方的开关，第一次需要授权VPN权限</p>
+													</div>
+													<div class="tab-pane fade" id="all_ss_surfboard">
+														<p>1.下载<a href="https://www.lanzous.com/b539921/">Surfboard客户端</a>（网盘密码:gdsw），安装<br>
+														2.在手机浏览器中长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
+														3.运行Surfboard，账号为wuand0001@gmail.com，密码为12345678<br>
+														4.进入底部第三个Profile标签，点加号，选择第一个Download from url，里面会出现刚才复制的那个地址，点DOWNLOAD<br>
+														5.在出来的Edit profile界面点右下角的保存按钮，OK<br>
+														6.点击底部第一个Switch标签，点右下角的开关，第一次需要授权VPN权限</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_linux">
 														<p>1.Linux系统可以使用shadowsocks-qt5，<a href="https://github.com/shadowsocks/shadowsocks-qt5/releases">传送门</a><br>
