@@ -265,7 +265,7 @@
 														2.使用方法参考<a href="https://github.com/shadowsocks/shadowsocks-qt5/wiki">官方文档</a></p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_vpn">
-														<p>1.下载并安装<a href="https://coding.net/u/ssr233/p/ssr/git/raw/master/SSTap-setup.exe">SSTap</a>，安装过程中要安装一个驱动<br>
+														<p>1.下载并安装<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/SSTap-setup.exe">SSTap</a>，安装过程中要安装一个驱动<br>
 														2.启动SSTap。点击代理旁边的加号，选择“通过SS/SSR链接批量添加代理”<br>
 														3.右键点击<a href="{$ss_url_all}">这个链接</a>，选择“复制链接地址”，粘贴到对话框中<br>
 														4.将“模式”改成“不代理中国IP”<br>
