@@ -368,7 +368,7 @@ class LinkController extends BaseController
             $proxy_name .= ",".$item['remark'];
         }
 
-        return '# update: 2018.12.27
+        return '# update: 2019.1.6
 		
 [General]
 
@@ -381,54 +381,23 @@ dns-server = 119.29.29.29, 223.5.5.5, 114.114.114.114
 '.$proxy_group.'
 [Proxy Group]
 PROXY = select, SS节点1
-JP = select, SS节点4
 
 [Rule]
-
-# adblock
-DOMAIN-SUFFIX,irs01.com,REJECT
-DOMAIN-SUFFIX,bugly.qq.com,REJECT
-DOMAIN-SUFFIX,e.qq.com,REJECT
-DOMAIN-SUFFIX,gdt.qq.com,REJECT
-DOMAIN-SUFFIX,l.qq.com,REJECT
-DOMAIN-SUFFIX,rqd.qq.com,REJECT
-DOMAIN,btrace.qq.com,REJECT
-DOMAIN,mtrace.qq.com,REJECT
-DOMAIN,oth.eve.mdt.qq.com,REJECT
-DOMAIN,pgdt.gtimg.cn,REJECT
-DOMAIN,pingma.qq.com,REJECT
-DOMAIN,pingtcss.qq.com,REJECT
-DOMAIN,splashqqlive.gtimg.com,REJECT
-DOMAIN,tajs.qq.com,REJECT
-DOMAIN,ifacelog.iqiyi.com,REJECT
-DOMAIN,mbdlog.iqiyi.com,REJECT
-DOMAIN,msg.71.am,REJECT
-DOMAIN,msg.qy.net,REJECT
-IP-CIDR,101.227.97.240/32,REJECT,no-resolve
-IP-CIDR,101.227.200.11/32,REJECT,no-resolve
-IP-CIDR,101.227.200.28/32,REJECT,no-resolve
-IP-CIDR,124.192.153.42/32,REJECT,no-resolve
-DOMAIN,acs4baichuan.m.taobao.com,REJECT
-DOMAIN,adash.m.taobao.com,REJECT
-DOMAIN,adash.man.aliyuncs.com,REJECT
-DOMAIN,adashbc.ut.taobao.com,REJECT
-DOMAIN,adash-c.ut.taobao.com,REJECT
-DOMAIN,adashxgc.ut.taobao.com,REJECT
-DOMAIN,amdc.m.taobao.com,REJECT
-DOMAIN,apoll.m.taobao.com,REJECT
-DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
-DOMAIN,tunion-api.m.taobao.com,REJECT
-DOMAIN-SUFFIX,atm.youku.com,REJECT
-DOMAIN,ad.mobile.youku.com,REJECT
-DOMAIN,iyes.youku.com,REJECT
 
 # direct
 DOMAIN-SUFFIX,baidu.com,DIRECT
 DOMAIN-SUFFIX,alipay.com,DIRECT
 DOMAIN-SUFFIX,taobao.com,DIRECT
+DOMAIN-SUFFIX,tmall.com,DIRECT
+DOMAIN-KEYWORD,ptlogin2,DIRECT
 DOMAIN-SUFFIX,qq.com,DIRECT
+DOMAIN-SUFFIX,jd.com,DIRECT
 DOMAIN-SUFFIX,weibo.com,DIRECT
+IP-CIDR,192.168.0.0/16,DIRECT
 GEOIP,CN,DIRECT
+
+# non-jp
+DOMAIN-SUFFIX,jkforum.net,SS节点3
 
 # jp
 DOMAIN-KEYWORD,dmm,SS节点4
@@ -451,15 +420,7 @@ FINAL,PROXY
 
 [URL Rewrite]
 
-^https?:\/\/(www.)?g\.cn https://www.google.com 302
-^https?:\/\/(www.)?google\.cn https://www.google.com 302
-^https?:\/\/btrace.qq.com - reject
-^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
-^https?:\/\/.+\.mp4\?cdncode=.+&guid= - reject
-^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo - reject
-^https?:\/\/t7z\.cupid\.iqiyi\.com\/mixer\? - reject
-^https?:\/\/.+\.mp4\?ccode=0902 - reject
-^https?:\/\/.+\.mp4\?sid= - reject
+^https?://(www.)?(g|google).cn https://www.google.com 302
 ';
 
     }
