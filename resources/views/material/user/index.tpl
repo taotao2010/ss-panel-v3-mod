@@ -152,10 +152,10 @@
 																<a class="waves-attach" data-toggle="tab" href="#all_ss_mac"><i class="icon icon-lg">laptop_mac</i>&nbsp;MacOS</a>
 															</li>
 															<li>
-																<a class="waves-attach" data-toggle="tab" href="#all_ss_android_bak"><i class="icon icon-lg">android</i>&nbsp;安卓(备用)</a>
+																<a class="waves-attach" data-toggle="tab" href="#all_ss_v2ray"><i class="icon icon-lg">desktop_windows</i>&nbsp;Win（备用）</a>
 															</li>
 															<li>
-																<a class="waves-attach" data-toggle="tab" href="#all_ss_v2ray"><i class="icon icon-lg">desktop_windows</i>&nbsp;Win(备用)</a>
+																<a class="waves-attach" data-toggle="tab" href="#all_ss_android_bak"><i class="icon icon-lg">android</i>&nbsp;安卓（备用）</a>
 															</li>
 															<li>
 																<a class="waves-attach" data-toggle="tab" href="#all_ss_mtk"><i class="icon icon-lg">router</i>&nbsp;低端路由器</a>
@@ -170,10 +170,10 @@
 																<a class="waves-attach" data-toggle="tab" href="#all_ss_linux"><i class="icon icon-lg">desktop_windows</i>&nbsp;Linux</a>
 															</li>
 															<li>
-																<a class="waves-attach" data-toggle="tab" href="#all_ss_clash"><i class="icon icon-lg">desktop_windows</i>&nbsp;Win(进阶)</a>
+																<a class="waves-attach" data-toggle="tab" href="#all_ss_clash"><i class="icon icon-lg">desktop_windows</i>&nbsp;Win（进阶）</a>
 															</li>
 															<li>
-																<a class="waves-attach" data-toggle="tab" href="#all_ss_surfboard"><i class="icon icon-lg">android</i>&nbsp;安卓(进阶)</a>
+																<a class="waves-attach" data-toggle="tab" href="#all_ss_surfboard"><i class="icon icon-lg">android</i>&nbsp;安卓（进阶）</a>
 															</li>
 														</ul>
 													</nav>
