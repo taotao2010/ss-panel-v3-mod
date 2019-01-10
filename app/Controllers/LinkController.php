@@ -393,16 +393,16 @@ DOMAIN-KEYWORD,ptlogin2,DIRECT
 DOMAIN-SUFFIX,qq.com,DIRECT
 DOMAIN-SUFFIX,jd.com,DIRECT
 DOMAIN-SUFFIX,weibo.com,DIRECT
-IP-CIDR,192.168.0.0/16,DIRECT
-GEOIP,CN,DIRECT
 
 # non-jp
-DOMAIN-SUFFIX,jkforum.net,SS节点3
+DOMAIN-SUFFIX,mgoon.com,SS节点2
+DOMAIN-SUFFIX,vidmix.tv,SS节点2
+DOMAIN-SUFFIX,wecandeo.com,SS节点2
+DOMAIN-SUFFIX,jkforum.net,SS节点2
 
 # jp
 DOMAIN-KEYWORD,dmm,SS节点4
 DOMAIN-KEYWORD,scholar,SS节点4
-GEOIP,JP,SS节点4
 
 # proxy
 DOMAIN-KEYWORD,google,PROXY,force-remote-dns
@@ -416,6 +416,11 @@ DOMAIN-SUFFIX,twimg.com,PROXY,force-remote-dns
 DOMAIN-KEYWORD,tumblr,PROXY,force-remote-dns
 DOMAIN-KEYWORD,github,PROXY,force-remote-dns
 DOMAIN-KEYWORD,telegram,PROXY,force-remote-dns
+
+# final
+IP-CIDR,192.168.0.0/16,DIRECT
+GEOIP,JP,SS节点4
+GEOIP,CN,DIRECT
 FINAL,PROXY
 
 [URL Rewrite]
