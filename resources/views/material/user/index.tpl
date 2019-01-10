@@ -222,13 +222,11 @@
 														6.XP系统，打开IE浏览器，工具-Internet选项-连接-局域网设置，选中里面的代理服务器，地址填127.0.0.1，端口填8888，然后可以使用I除火狐外的任何浏览器</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_clash">
-														<p>
-														1.此方案只支持64位系统，32位系统请使用默认方案或者兼容方案。<br>
+														<p>1.此方案只支持64位系统，32位系统请使用默认方案或者兼容方案。<br>
 														2.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/clash.7z">clash</a>，解压。<br>
 														3.用记事本或者其它代码编辑器打开其中的config.yml，将其中出现的几处port后面的12345修改为 {$user->port} ，将其中出现的几处password后面的ABCDE修改为 {$user->passwd} ，保存文件<br>
 														4.运行start.bat<br>
-														5.下载<a href="https://coding.net/u/ssr233/p/browser/git/raw/master/Cent233.7z">百分浏览器233定制版</a>，解压，运行chrome.exe，点击右上角的圆圈图标，选择“clash/v2ray模式”
-														</p>
+														5.下载<a href="https://coding.net/u/ssr233/p/browser/git/raw/master/Cent233.7z">百分浏览器233定制版</a>，解压，运行chrome.exe，点击右上角的圆圈图标，选择“clash/v2ray模式”</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_mac">
 														<p>1.请确保你的系统版本是10.11或更高<br>
