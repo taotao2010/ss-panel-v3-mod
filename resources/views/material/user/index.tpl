@@ -215,7 +215,7 @@
 													</div>
 													<div class="tab-pane fade" id="all_ss_v2ray">
 														<p>1.此方案性能并不好，如果你是64位系统，建议使用上方的进阶方案。
-														2.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/v2ray.7z">v2ray</a>，解压。<br>
+														2.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/v2ray.7z">v2ray</a>，解压到一个文件夹，例如D:\v2ray。<br>
 														3.用记事本或者其它代码编辑器打开其中的config.json，将其中出现的几处port后面的12345修改为 {$user->port} ，将其中出现的几处password后面的ABCDE修改为 {$user->passwd} ，保存文件<br>
 														4.运行v2ray.exe，如果你讨厌窗口，也可以运行wv2ray.exe<br>
 														5.Win7及以上系统可以下载<a href="https://coding.net/u/ssr233/p/browser/git/raw/master/Cent233.7z">百分浏览器233定制版</a>，解压，运行chrome.exe，点击右上角的圆圈图标，选择“clash/v2ray模式”<br>
@@ -223,9 +223,9 @@
 													</div>
 													<div class="tab-pane fade" id="all_ss_clash">
 														<p>1.此方案只支持64位系统，32位系统请使用默认方案或者兼容方案。<br>
-														2.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/clash.7z">clash</a>，解压。<br>
-														3.用记事本或者其它代码编辑器打开其中的config.yml，将其中出现的几处port后面的12345修改为 {$user->port} ，将其中出现的几处password后面的ABCDE修改为 {$user->passwd} ，保存文件<br>
-														4.运行start.bat<br>
+														2.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/clash.7z">clash</a>，解压到一个文件夹，例如D:\clash。<br>
+														3.下载<a href="https://tgbot.lbyczf.com/surge2clash?url=https://new.ssr233.com/link/{$ios_token}?is_ss=1">配置文件</a>，将下载下来的allinone.yml更名为config.yml<br>
+														4.将config.yml复制进clash的文件夹里，运行start.bat<br>
 														5.下载<a href="https://coding.net/u/ssr233/p/browser/git/raw/master/Cent233.7z">百分浏览器233定制版</a>，解压，运行chrome.exe，点击右上角的圆圈图标，选择“clash/v2ray模式”</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_mac">
