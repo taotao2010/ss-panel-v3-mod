@@ -24,7 +24,7 @@
 								<div class="card">
 									<div class="card-main">
 										<div class="card-inner">
-											<p>今天过上想过的生活了吗？</p>
+											<p>各大外卖平台均可下单~</p>
 										</div>
 									</div>
 								</div>
