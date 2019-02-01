@@ -186,7 +186,7 @@
 														{if URL::SSCanConnect($user)}
 														<dl class="dl-horizontal">
 															<p>
-															<dt>服务器</dt>
+															<dt>服务器地址</dt>
 															<dd>节点1：s1.mpdf.in</dd>
 															<dd>节点2：s2.mpdf.in</dd>
 															<dd>节点3：s3.mpdf.in</dd>
@@ -227,10 +227,10 @@
 													</div>
 													<div class="tab-pane fade" id="all_ss_clash">
 														<p>1.此方案只支持64位系统，32位系统请使用默认方案或者兼容方案。<br>
-														2.下载<a href="https://www.lanzous.com/b578475">clash</a>，解压到一个文件夹，例如D:\clash。<br>
+														2.下载<a href="https://www.lanzous.com/b578475">Clash for Windows</a>，解压到一个文件夹，例如D:\Clash。<br>
 														3.下载<a href="https://tgbot.lbyczf.com/surge2clash?url=https://new.ssr233.com/link/{$ios_token}?is_ss=1">配置文件</a>，将下载下来的allinone.yml更名为config.yml<br>
 														4.打开Clash文件夹，依次进入resources-static-files文件夹，将config.yml复制进去<br>
-														5.回到Clash文件夹，运行Clash for Windows.exe</p>
+														5.回到Clash文件夹，运行Clash for Windows.exe<br>
 														6.下载<a href="https://www.lanzous.com/b535524">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe，点击右上角的圆圈图标，选择“clash/v2ray模式”</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_mac">
