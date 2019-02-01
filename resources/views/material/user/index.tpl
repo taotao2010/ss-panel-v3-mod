@@ -211,10 +211,10 @@
 													<div class="tab-pane fade" id="all_ss_windows">
 														<p>1.请确保你的系统版本是Win7 SP1、Win8.1、Win10这三个中的一个（XP系统或者安装.net框架遇到问题的请参考上方的备用方案）<br>
 														2.如果你的系统是Win10 1607以下（包括Win7 SP1、Win8.1、Win10 1507、Win10 1511），请下载并安装<a href="https://download.microsoft.com/download/F/9/4/F942F07D-F26F-4F30-B4E3-EBD54FABA377/NDP462-KB3151800-x86-x64-AllOS-ENU.exe">.net 4.6.2环境</a><br>
-														3.下载<a href="https://www.lanzous.com/b576047">SS客户端</a>，解压到一个文件夹，例如D:\SS<br>
+														3.下载<a href="https://www.lanzous.com/b576047" target="_blank">SS客户端</a>，解压到一个文件夹，例如D:\SS<br>
 														4.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的SS文件夹里<br>
 														5.运行Shadowsocks.exe<br>
-														6.下载<a href="https://www.lanzous.com/b535524">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe即可
+														6.下载<a href="https://www.lanzous.com/b535524" target="_blank">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe即可
 														7.后续再想使用代理需同时开启SS（建议设置开机自启）</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_v2ray">
@@ -236,7 +236,7 @@
 													<div class="tab-pane fade" id="all_ss_mac">
 														<p>1.请确保你的系统版本是10.11或更高<br>
 														2.运行launcher里的“实用工具”文件夹下的“终端”，输入sudo spctl --master-disable，回车后输入你的系统密码，再回车<br>
-														3.下载<a href="https://www.lanzous.com/b576051">SS客户端</a>，解压，拖到应用程序里<br>
+														3.下载<a href="https://www.lanzous.com/b576051" target="_blank">SS客户端</a>，解压，拖到应用程序里<br>
 														4.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a><br>
 														5.运行ShdowsocksX-NG，在右上角的纸飞机上点右键，点击“服务器”-“导入服务器配置文件”，选中你刚刚下载的gui-config.json文件<br>
 														6.在右上角的纸飞机上点击“打开Shadowsocks”</p>
