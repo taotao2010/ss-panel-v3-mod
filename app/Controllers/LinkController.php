@@ -368,7 +368,7 @@ class LinkController extends BaseController
             $proxy_name .= ",".$item['remark'];
         }
 
-        return '# update: 2019.1.6
+        return '# update: 2019.2.1
 		
 [General]
 
@@ -380,46 +380,64 @@ dns-server = 119.29.29.29, 223.5.5.5, 114.114.114.114
 [Proxy]
 '.$proxy_group.'
 [Proxy Group]
-PROXY = select, SS节点1
+PROXY = select, 节点1, 节点2, 节点3, 节点4
 
 [Rule]
 
 # direct
+IP-CIDR,192.168.0.0/16,DIRECT
 DOMAIN-SUFFIX,baidu.com,DIRECT
 DOMAIN-SUFFIX,alipay.com,DIRECT
 DOMAIN-SUFFIX,taobao.com,DIRECT
 DOMAIN-SUFFIX,tmall.com,DIRECT
-DOMAIN-KEYWORD,ptlogin2,DIRECT
 DOMAIN-SUFFIX,qq.com,DIRECT
+DOMAIN-KEYWORD,ptlogin2,DIRECT
 DOMAIN-SUFFIX,jd.com,DIRECT
 DOMAIN-SUFFIX,weibo.com,DIRECT
+DOMAIN-SUFFIX,google.cn,DIRECT
+DOMAIN-SUFFIX,google-analytics.com,DIRECT
+DOMAIN-SUFFIX,googletagmanager.com,DIRECT
 
-# non-jp
-DOMAIN-SUFFIX,mgoon.com,SS节点2
-DOMAIN-SUFFIX,vidmix.tv,SS节点2
-DOMAIN-SUFFIX,wecandeo.com,SS节点2
-DOMAIN-SUFFIX,jkforum.net,SS节点2
+# youtube
+DOMAIN-SUFFIX,googlevideo.com,PROXY,force-remote-dns
 
-# jp
-DOMAIN-KEYWORD,dmm,SS节点4
-DOMAIN-KEYWORD,scholar,SS节点4
+# s2
+DOMAIN-KEYWORD,google,节点2,force-remote-dns
+DOMAIN-SUFFIX,ggpht.com,节点2,force-remote-dns
+DOMAIN-KEYWORD,facebook,节点2,force-remote-dns
+DOMAIN-SUFFIX,instagram.com,节点2,force-remote-dns
+DOMAIN-KEYWORD,whatsapp,节点2,force-remote-dns
+DOMAIN-KEYWORD,twitter,节点2,force-remote-dns
+DOMAIN-SUFFIX,wikipedia.org,节点2,force-remote-dns
+DOMAIN-SUFFIX,wikimedia.org,节点2,force-remote-dns
+DOMAIN-KEYWORD,pinterest,节点2,force-remote-dns
+DOMAIN-SUFFIX,pinimg.com,节点2,force-remote-dns
+DOMAIN-KEYWORD,github,节点2,force-remote-dns
+DOMAIN-KEYWORD,telegram,节点2,force-remote-dns
+DOMAIN-SUFFIX,mgoon.com,节点2
+DOMAIN-SUFFIX,vidmix.tv,节点2
+DOMAIN-SUFFIX,wecandeo.com,节点2
+DOMAIN-SUFFIX,jkforum.net,节点2
+DOMAIN-KEYWORD,sci-hub,节点2
 
-# proxy
-DOMAIN-KEYWORD,google,PROXY,force-remote-dns
+# s3
+DOMAIN-SUFFIX,netflix.com,节点3
+DOMAIN-KEYWORD,nflx,节点3
+
+# s4
+DOMAIN-KEYWORD,dmm,节点4
+DOMAIN-KEYWORD,line,节点4
+
+# force-remote-dns
 DOMAIN-KEYWORD,youtube,PROXY,force-remote-dns
-DOMAIN-KEYWORD,facebook,PROXY,force-remote-dns
+DOMAIN-SUFFIX,ytimg.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,fbcdn.net,PROXY,force-remote-dns
-DOMAIN-KEYWORD,instagram,PROXY,force-remote-dns
-DOMAIN-KEYWORD,whatsapp,PROXY,force-remote-dns
-DOMAIN-KEYWORD,twitter,PROXY,force-remote-dns
 DOMAIN-SUFFIX,twimg.com,PROXY,force-remote-dns
 DOMAIN-KEYWORD,tumblr,PROXY,force-remote-dns
-DOMAIN-KEYWORD,github,PROXY,force-remote-dns
-DOMAIN-KEYWORD,telegram,PROXY,force-remote-dns
+DOMAIN-SUFFIX,piring.com,PROXY,force-remote-dns
 
 # final
-IP-CIDR,192.168.0.0/16,DIRECT
-GEOIP,JP,SS节点4
+GEOIP,JP,节点4
 GEOIP,CN,DIRECT
 FINAL,PROXY
 
