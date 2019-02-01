@@ -77,10 +77,7 @@
 													<label class="floating-label" for="imtype">选择您的联络方式</label>
 													<select class="form-control" id="imtype">
 														<option></option>
-														<option value="1">微信</option>
 														<option value="2">QQ</option>
-														<option value="3">Google+</option>
-														<option value="4">Telegram</option>
 													</select>
 												</div>
 											</div>
@@ -90,7 +87,7 @@
 										<div class="form-group form-group-label">
 											<div class="row">
 												<div class="col-md-10 col-md-push-1">
-													<label class="floating-label" for="wechat">在这输入联络方式账号</label>
+													<label class="floating-label" for="wechat">在这输入QQ号码</label>
 													<input class="form-control" id="wechat" type="text">
 												</div>
 											</div>

@@ -37,7 +37,7 @@
 								<div class="card-main">
 									<div class="card-inner margin-bottom-no">
 										<p class="card-heading">各平台使用说明</p>
-										<p>新用户请根据自己使用的设备类型配置你的SS：</p>
+										<p>新用户请根据自己的设备类型进行配置：</p>
 										
 										<div class="card-inner">
 											<div class="tab-content">
@@ -185,8 +185,13 @@
 
 														{if URL::SSCanConnect($user)}
 														<dl class="dl-horizontal">
-															<p>各个节点的地址请到节点列表查看！</p>
-
+															<p>
+															<dt>服务器</dt>
+															<dd>节点1：s1.mpdf.in</dd>
+															<dd>节点2：s2.mpdf.in</dd>
+															<dd>节点3：s3.mpdf.in</dd>
+															<dd>节点4：s4.mpdf.in</dd>
+															</p>
 
 															<p><dt>端口</dt>
 															<dd>{$user->port}</dd></p>
@@ -194,11 +199,9 @@
 															<p><dt>密码</dt>
 															<dd>{$user->passwd}</dd></p>
 
-															<p><dt>自定义加密</dt>
+															<p><dt>加密方式</dt>
 															<dd>{$user->method}</dd></p>
 
-															<p><dt>自定义混淆</dt>
-															<dd>{$user->obfs}</dd></p>
 														</dl>
 														{else}
 															<p>您好，您目前的 加密方式，混淆，或者协议设置在 SS 客户端下无法连接。请您选用 SSR 客户端来连接，或者到 资料编辑 页面修改后再来查看此处。</p>
@@ -208,37 +211,39 @@
 													<div class="tab-pane fade" id="all_ss_windows">
 														<p>1.请确保你的系统版本是Win7 SP1、Win8.1、Win10这三个中的一个（XP系统或者安装.net框架遇到问题的请参考上方的备用方案）<br>
 														2.如果你的系统是Win10 1607以下（包括Win7 SP1、Win8.1、Win10 1507、Win10 1511），请下载并安装<a href="https://download.microsoft.com/download/F/9/4/F942F07D-F26F-4F30-B4E3-EBD54FABA377/NDP462-KB3151800-x86-x64-AllOS-ENU.exe">.net 4.6.2环境</a><br>
-														3.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/Shadowsocks.zip">SS客户端</a>，解压到一个文件夹，例如D:\SS<br>
+														3.下载<a href="https://www.lanzous.com/b576047">SS客户端</a>，解压到一个文件夹，例如D:\SS<br>
 														4.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的SS文件夹里<br>
 														5.运行Shadowsocks.exe<br>
-														6.下载<a href="https://coding.net/u/ssr233/p/browser/git/raw/master/Cent233.7z">百分浏览器233定制版</a>，解压，运行chrome.exe即可</p>
+														6.下载<a href="https://www.lanzous.com/b535524">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe即可
+														7.后续再想使用代理需同时开启SS（建议设置开机自启）</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_v2ray">
-														<p>1.此方案性能并不好，如果你是64位系统，建议使用上方的进阶方案。
-														2.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/v2ray.7z">v2ray</a>，解压到一个文件夹，例如D:\v2ray。<br>
-														3.用记事本或者其它代码编辑器打开其中的config.json，将其中出现的几处port后面的12345修改为 {$user->port} ，将其中出现的几处password后面的ABCDE修改为 {$user->passwd} ，保存文件<br>
+														<p>1.此方案性能一般，如果你是64位系统，建议使用上方的进阶方案。<br>
+														2.下载<a href="https://www.lanzous.com/b578419">v2ray</a>，解压到一个文件夹，例如D:\v2ray。<br>
+														3.用记事本或者其它代码编辑器打开其中的config.json，将其中出现的几处port后面的12345修改为 {$user->port}，将其中出现的几处password后面的ABCDE修改为 {$user->passwd}，保存文件<br>
 														4.运行v2ray.exe，如果你讨厌窗口，也可以运行wv2ray.exe<br>
-														5.Win7及以上系统可以下载<a href="https://coding.net/u/ssr233/p/browser/git/raw/master/Cent233.7z">百分浏览器233定制版</a>，解压，运行chrome.exe，点击右上角的圆圈图标，选择“clash/v2ray模式”<br>
+														5.Win7及以上系统可以下载<a href="https://www.lanzous.com/b535524">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe，点击右上角的圆圈图标，选择“clash/v2ray模式”<br>
 														6.XP系统，打开IE浏览器，工具-Internet选项-连接-局域网设置，选中里面的代理服务器，地址填127.0.0.1，端口填8888，然后可以使用I除火狐外的任何浏览器</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_clash">
 														<p>1.此方案只支持64位系统，32位系统请使用默认方案或者兼容方案。<br>
-														2.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/clash.7z">clash</a>，解压到一个文件夹，例如D:\clash。<br>
+														2.下载<a href="https://www.lanzous.com/b578475">clash</a>，解压到一个文件夹，例如D:\clash。<br>
 														3.下载<a href="https://tgbot.lbyczf.com/surge2clash?url=https://new.ssr233.com/link/{$ios_token}?is_ss=1">配置文件</a>，将下载下来的allinone.yml更名为config.yml<br>
-														4.将config.yml复制进clash的文件夹里，运行start.bat<br>
-														5.下载<a href="https://coding.net/u/ssr233/p/browser/git/raw/master/Cent233.7z">百分浏览器233定制版</a>，解压，运行chrome.exe，点击右上角的圆圈图标，选择“clash/v2ray模式”</p>
+														4.打开Clash文件夹，依次进入resources-static-files文件夹，将config.yml复制进去<br>
+														5.回到Clash文件夹，运行Clash for Windows.exe</p>
+														6.下载<a href="https://www.lanzous.com/b535524">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe，点击右上角的圆圈图标，选择“clash/v2ray模式”</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_mac">
 														<p>1.请确保你的系统版本是10.11或更高<br>
 														2.运行launcher里的“实用工具”文件夹下的“终端”，输入sudo spctl --master-disable，回车后输入你的系统密码，再回车<br>
-														3.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/ShadowsocksX-NG.zip">SS客户端</a>，解压，拖到应用程序里<br>
+														3.下载<a href="https://www.lanzous.com/b576051">SS客户端</a>，解压，拖到应用程序里<br>
 														4.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a><br>
 														5.运行ShdowsocksX-NG，在右上角的纸飞机上点右键，点击“服务器”-“导入服务器配置文件”，选中你刚刚下载的gui-config.json文件<br>
 														6.在右上角的纸飞机上点击“打开Shadowsocks”</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_ios">
 														<p>1.请确保你的系统版本是9.0或更高<br>
-														2.按照<a href="https://gitee.com/ssr233/ssr233/blob/master/ios_share_account.md">切换账号教程</a>切换AppStore账号为公共美区账号（账号：1009397260@qq.com，密码：Wuan1018）。切记登录的是AppStore而不是iCloud，否则会泄露隐私甚至锁机！<br>
+														2.按照<a href="https://github.com/wuand/wuand/issues/11">切换账号教程</a>切换AppStore账号为公共美区账号（账号：1009397260@qq.com，密码：Wuan1018。切记登录的是AppStore而不是iCloud，否则会泄露隐私甚至锁机！）<br>
 														3.下载<a href="https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8">Shadowrocket</a><br>
 														4.在设备的Safari浏览器上长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>，点击“拷贝”<br>
 														5.打开Shadowrocket，进入底部的“配置”菜单，点击“添加配置”，把刚才复制的配置粘贴进去，点击“下载”<br>
@@ -247,7 +252,7 @@
 													</div>
 													<div class="tab-pane fade" id="all_ss_android">
 														<p>1.请确保你的系统版本是5.0或更高（4.1~4.4系统或者其它无法使用的机型请参考上方的备用方案）<br>
-														2.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/shadowsocks.apk">SS客户端</a>，安装<br>
+														2.下载<a href="https://www.lanzous.com/b576050">SS客户端</a>，安装<br>
 														3.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>，选择“复制链接网址”<br>
 														4.打开安装好的Shadowsocks，点右上角的加号，选择“从剪贴板导入”<br>
 														5.选中一个节点（如SS节点1）<br>
@@ -256,16 +261,16 @@
 													</div>
 													<div class="tab-pane fade" id="all_ss_android_bak">
 														<p>1.请确保你的系统版本是4.1或更高<br>
-														2.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/bifrostv.apk">BifrostV客户端</a>，安装<br>
+														2.下载<a href="https://www.lanzous.com/b576062">BifrostV客户端</a>，安装<br>
 														3.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>，选择“复制链接网址”<br>
 														4.打开安装好的BifrostV，点右上角的加号，选择“导入”-“从剪贴板导入”<br>
 														5.选中一个节点（如SS节点1）<br>
 														6.点击主界面右下方的开关，第一次需要授权VPN权限</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_surfboard">
-														<p>1.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/surfboard.apk">Surfboard客户端</a>，安装<br>
+														<p>1.下载<a href="https://www.lanzous.com/b576065">Surfboard客户端</a>，安装<br>
 														2.在手机浏览器中长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
-														3.运行Surfboard，账号为wuand0001@gmail.com，密码为12345678<br>
+														3.运行Surfboard，账号为mpdf0001@gmail.com，密码为12345678<br>
 														4.进入底部第三个Profile标签，点加号，选择第一个Download from url，里面会出现刚才复制的那个地址，点DOWNLOAD<br>
 														5.在出来的Edit profile界面点右下角的保存按钮，OK<br>
 														6.点击底部第一个Switch标签，点右下角的开关，第一次需要授权VPN权限</p>
@@ -275,7 +280,7 @@
 														2.使用方法参考<a href="https://github.com/shadowsocks/shadowsocks-qt5/wiki">官方文档</a></p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_vpn">
-														<p>1.下载并安装<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/SSTap-setup.exe">SSTap</a>，安装过程中要安装一个驱动<br>
+														<p>1.下载并安装<a href="https://www.lanzous.com/b576056">SSTap</a>，安装过程中要安装一个驱动<br>
 														2.启动SSTap。点击代理旁边的加号，选择“通过SS/SSR链接批量添加代理”<br>
 														3.右键点击<a href="{$ss_url_all}">这个链接</a>，选择“复制链接地址”，粘贴到对话框中<br>
 														4.将“模式”改成“不代理中国IP”<br>
@@ -285,7 +290,7 @@
 														<p>1.确保路由器是可以刷入Padavan固件的型号，如极路由、小米mini、newifi mini等<br>
 														2.刷入<a href="http://www.right.com.cn/forum/thread-161324-1-1.html">Padavan固件</a>，刷机教程自行搜索<br>
 														3.进入路由器后台，点首页中间第四个图标（纸飞机）<br>
-														4.在下方的主服务器处填写：ss-1.ssr233.com，如果用其它节点就填具体的数字<br>
+														4.在下方的主服务器处填写：s1.mpdf.in，如果用其它节点就填具体的数字<br>
 														5.服务器端口填写：{$user->port}，服务器密码填写：{$user->passwd}，加密方式选择：aes-256-gcm<br>
 														6.页面上方的“代理类型”确保是SS，打开顶上的开关，点一次“应用本页面设置”</p>
 													</div>
@@ -294,7 +299,7 @@
 														2.刷入<a href="http://koolshare.cn/forum-96-1.html">梅林固件</a>，刷机教程自行搜索<br>
 														3.下载<a href="https://github.com/hq450/fancyss">SS插件</a>到电脑<br>
 														4.进入路由器后台，打开软件中心，点离线安装，选择下载的gz文件，上传并安装<br>
-														5.未完待续</p>
+														5.后续操作参考其它平台，切记加密方式选aes-256-gcm</p>
 													</div>
 												</div>
 											</div>
