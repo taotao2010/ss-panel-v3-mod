@@ -228,7 +228,7 @@
 													<div class="tab-pane fade" id="all_ss_clash">
 														<p>1.此方案只支持64位系统，32位系统请使用默认方案或者兼容方案。<br>
 														2.下载<a href="https://www.lanzous.com/b578475">Clash for Windows</a>，解压到一个文件夹，例如D:\Clash。<br>
-														3.下载<a href="https://tgbot.lbyczf.com/surge2clash?url=https://mpdf.in/link/{$ios_token}?is_ss=1">配置文件</a>，将下载下来的allinone.yml更名为config.yml<br>
+														3.下载<a href="https://tgbot.lbyczf.com/surge2clash?url=https://doufu001.com/link/{$ios_token}?is_ss=1">配置文件</a>，将下载下来的allinone.yml更名为config.yml<br>
 														4.打开Clash文件夹，依次进入resources-static-files文件夹，将config.yml复制进去<br>
 														5.回到Clash文件夹，运行Clash for Windows.exe<br>
 														6.下载<a href="https://www.lanzous.com/b535524">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe，点击右上角的圆圈图标，选择“clash/v2ray模式”</p>
@@ -243,8 +243,8 @@
 													</div>
 													<div class="tab-pane fade" id="all_ss_ios">
 														<p>1.请确保你的系统版本是9.0或更高<br>
-														2.按照<a href="https://github.com/wuand/wuand/issues/11">切换账号教程</a>切换AppStore账号为公共美区账号（账号： mpdf0001@gmail.com ，密码： Mpdf2019 。切记登录的是AppStore而不是iCloud，否则会泄露隐私甚至锁机！）<br>
-														3.下载<a href="https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8">Shadowrocket</a><br>
+														2.按照<a href="https://github.com/doufu001/doufu001/issues/1">切换账号教程</a>切换AppStore账号为公共美区账号（账号： mpdf0001@gmail.com ，密码： Mpdf2019 。切记登录的是AppStore而不是iCloud，否则会泄露隐私甚至锁机！）<br>
+														3.在AppStore中下载<a href="https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8">Shadowrocket</a><br>
 														4.在设备的Safari浏览器上长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>，点击“拷贝”<br>
 														5.打开Shadowrocket，进入底部的“配置”菜单，点击“添加配置”，把刚才复制的配置粘贴进去，点击“下载”<br>
 														6.点击底部的“远程文件”上的链接，点击“使用配置”，提示“保存代理节点”，点击“保存”<br>
