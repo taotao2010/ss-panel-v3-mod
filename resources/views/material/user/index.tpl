@@ -203,13 +203,13 @@
 														2.点击下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/Shadowsocks.7z">SS客户端</a>，解压<br>
 														3.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的Shadowsocks文件夹里<br>
 														4.运行Shadowsocks.exe<br>
-														5.下载<a href="https://coding.net/u/ssr233/p/centdoufu/git/raw/master/CentDoufu.7z">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe即可
+														5.下载<a href="https://coding.net/u/ssr233/p/centdoufu/git/raw/master/CentDoufu.7z">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe即可</p>
 														6.后续使用代理需同时开启Shadowsocks（建议设置开机自启）</p>
 														<p>进阶方案：<br>
 														1.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/clash.7z">Clash</a>，解压<br>
 														2.下载<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">配置文件</a><br>
 														3.将config.yml复制到Clash文件夹内<br>
-														4.运行Clash for Windows.exe<br>
+														4.运行start.bat<br>
 														5.下载<a href="https://coding.net/u/ssr233/p/centdoufu/git/raw/master/CentDoufu.7z">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe<br>
 														6.点击浏览器右上角第一个的圆圈图标，选择“clash/v2ray模式”</p>
 														<p>XP方案：<br>
@@ -218,7 +218,7 @@
 														3.下载你的<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">专属配置文件</a><br>
 														4.将刚才下载的config.yml复制到Clsah文件夹内，务必确保clash-windows-386.exe和config.yml在同一文件夹<br>
 														5.运行start.bat<br>
-														6.打开IE浏览器，工具-Internet选项-连接-局域网设置，选中里面的代理服务器，地址填127.0.0.1，端口填8888，然后使用I除火狐外的任何浏览器即可</p>
+														6.打开IE浏览器，工具-Internet选项-连接-局域网设置，选中里面的代理服务器，地址填127.0.0.1，端口填8888，然后使用除火狐外的任何浏览器即可</p>
 														<p>游戏方案：<br>
 														1.下载并安装<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/SSTap-setup.exe">SSTap</a>，安装过程中要安装一个驱动<br>
 														2.启动SSTap。点击代理旁边的加号，选择“通过SS/SSR链接批量添加代理”<br>
