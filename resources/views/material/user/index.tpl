@@ -216,7 +216,7 @@
 														1.使用本方案后，请务必保证clash客户端处于运行状态，关闭clash后将无法上网！<br>
 														2.点击下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/clash.7z">Clash</a>，解压<br>
 														3.下载你的<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">专属配置文件</a><br>
-														4.将刚才下载的config.yml复制到Clsah文件夹内，务必确保clash-windows-386.exe和config.yml在同一文件夹<br>
+														4.将刚才下载的config.yml复制到Clash文件夹内，务必确保clash-windows-386.exe和config.yml在同一文件夹<br>
 														5.运行start.bat<br>
 														6.打开IE浏览器，工具-Internet选项-连接-局域网设置，选中里面的代理服务器，地址填127.0.0.1，端口填8888，然后使用除火狐外的任何浏览器即可</p>
 														<p>游戏方案：<br>
