@@ -36,7 +36,7 @@
 							<div class="card">
 								<div class="card-main">
 									<div class="card-inner margin-bottom-no">
-										<p class="card-heading">各平台使用说明</p>
+										<p class="card-heading">新手配置指南</p>
 										<p>新用户请根据自己的设备类型进行配置：</p>
 										
 										<div class="card-inner">
