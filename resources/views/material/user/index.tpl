@@ -227,12 +227,20 @@
 														5.点击“连接”即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_mac">
-														<p>1.请确保你的系统版本是10.11或更高<br>
-														2.运行launcher里的“实用工具”文件夹下的“终端”，输入sudo spctl --master-disable，回车后输入你的系统密码，再回车<br>
-														3.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/ShadowsocksX-NG.zip">SS客户端</a>，解压，拖到应用程序里<br>
-														4.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a><br>
-														5.运行ShdowsocksX-NG，在右上角的纸飞机上点右键，点击“服务器”-“导入服务器配置文件”，选中你刚刚下载的gui-config.json文件<br>
-														6.在右上角的纸飞机上点击“打开Shadowsocks”</p>
+														<p>普通用户请参考一般方案，高级玩家请参考进阶方案。</p>
+														<p>一般方案：<br>
+														1.请确保你的系统版本是10.11或更高<br>
+														2.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/ShadowsocksX-NG.zip">SS客户端</a>，解压，拖到应用程序里<br>
+														3.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a><br>
+														4.运行ShdowsocksX-NG，第一次打开要输入一次系统密码<br>
+														5.在右上角的纸飞机上点右键，点击“服务器”-“导入服务器配置文件”，选中你刚刚下载的gui-config.json文件</p>
+														<p>进阶方案：<br>
+														1.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/ClashX.dmg">ClashX</a>，安装<br>
+														2.右键复制<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
+														3.运行ClashX，第一次要输入系统密码<br>
+														4.在右上角ClashX图标上选择“配置”-“托管配置”-“设置地址”<br>
+														5.将刚才复制的那串链接填进去，点击“OK”，会提示update success<br>
+														6.点击右上角ClashX图标上的“设置为系统代理”即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_ios">
 														<p>理解能力较差的用户请参考小白方案，普通用户请参考一般方案。</p>
