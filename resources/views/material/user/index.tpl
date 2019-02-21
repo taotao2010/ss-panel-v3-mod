@@ -146,7 +146,7 @@
 																<a class="waves-attach" data-toggle="tab" href="#all_ss_android"><i class="icon icon-lg">android</i>&nbsp;安卓</a>
 															</li>
 															<li>
-																<a class="waves-attach" data-toggle="tab" href="#all_ss_ios"><i class="icon icon-lg">laptop_mac</i>&nbsp;iOS</a>
+																<a class="waves-attach" data-toggle="tab" href="#all_ss_ios"><i class="icon icon-lg">laptop_mac</i>&nbsp;iPhone/iPad</a>
 															</li>
 															<li>
 																<a class="waves-attach" data-toggle="tab" href="#all_ss_mac"><i class="icon icon-lg">laptop_mac</i>&nbsp;Mac</a>
@@ -206,12 +206,14 @@
 														5.下载<a href="https://coding.net/u/ssr233/p/centdoufu/git/raw/master/CentDoufu.7z">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe即可</p>
 														6.后续使用代理需同时开启Shadowsocks（建议设置开机自启）</p>
 														<p>进阶方案：<br>
-														1.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/clash.7z">Clash</a>，解压<br>
+														1.到<a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">这里</a>下载Clash for Windows，注意下载zip版本，不要下载exe版<br>
 														2.下载<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">配置文件</a><br>
-														3.将config.yml复制到Clash文件夹内<br>
-														4.运行start.bat<br>
-														5.下载<a href="https://coding.net/u/ssr233/p/centdoufu/git/raw/master/CentDoufu.7z">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe<br>
-														6.点击浏览器右上角第一个的圆圈图标，选择“clash/v2ray模式”</p>
+														3.下载<a href="https://raw.githubusercontent.com/Fndroid/clash_for_windows_pkg/master/Country.mmdb">Country.mmdb数据库</a><br>
+														4.解压Clash到一个文件夹内，进入该文件夹，依次进入/resources/static/files/文件夹<br>
+														5.将下载下来的config.yml和Country.mmdb复制进这个文件夹<br>
+														6.回到Clash主目录，运行Clash for Windows.exe<br>
+														7.下载<a href="https://coding.net/u/ssr233/p/centdoufu/git/raw/master/CentDoufu.7z">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe<br>
+														8.点击浏览器右上角第一个的圆圈图标，选择“clash/v2ray模式”</p>
 														<p>XP方案：<br>
 														1.使用本方案后，请务必保证clash客户端处于运行状态，关闭clash后将无法上网！<br>
 														2.点击下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/clash.7z">Clash</a>，解压<br>
