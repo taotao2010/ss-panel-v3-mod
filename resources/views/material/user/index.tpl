@@ -207,7 +207,7 @@
 														6.后续使用代理需同时开启Shadowsocks（建议设置开机自启）</p>
 														<p>进阶方案：<br>
 														1.到<a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">这里</a>下载Clash for Windows，注意下载zip版本，不要下载exe版<br>
-														2.下载<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">配置文件</a><br>
+														2.下载<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1&snippet=https://github.com/doufu001/doufu001/raw/master/clash.yml">配置文件</a><br>
 														3.下载<a href="https://raw.githubusercontent.com/Fndroid/clash_for_windows_pkg/master/Country.mmdb">Country.mmdb数据库</a><br>
 														4.解压Clash到一个文件夹内，进入该文件夹，依次进入/resources/static/files/文件夹<br>
 														5.将下载下来的config.yml和Country.mmdb复制进这个文件夹<br>
@@ -217,7 +217,7 @@
 														<p>XP方案：<br>
 														1.使用本方案后，请务必保证clash客户端处于运行状态，关闭clash后将无法上网！<br>
 														2.点击下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/clash.7z">Clash</a>，解压<br>
-														3.下载你的<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">专属配置文件</a><br>
+														3.下载你的<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1&snippet=https://github.com/doufu001/doufu001/raw/master/clash.yml">专属配置文件</a><br>
 														4.将刚才下载的config.yml复制到Clash文件夹内，务必确保clash-windows-386.exe和config.yml在同一文件夹<br>
 														5.运行start.bat<br>
 														6.打开IE浏览器，工具-Internet选项-连接-局域网设置，选中里面的代理服务器，地址填127.0.0.1，端口填8888，然后使用除火狐外的任何浏览器即可</p>
@@ -238,7 +238,7 @@
 														5.在右上角的纸飞机上点右键，点击“服务器”-“导入服务器配置文件”，选中你刚刚下载的gui-config.json文件</p>
 														<p>进阶方案：<br>
 														1.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/ClashX.dmg">ClashX</a>，安装<br>
-														2.右键复制<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
+														2.右键复制<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1&snippet=https://github.com/doufu001/doufu001/raw/master/clash.yml">这个链接</a><br>
 														3.运行ClashX，第一次要输入系统密码<br>
 														4.在右上角ClashX图标上选择“配置”-“托管配置”-“设置地址”<br>
 														5.将刚才复制的那串链接填进去，点击“OK”，会提示update success<br>
