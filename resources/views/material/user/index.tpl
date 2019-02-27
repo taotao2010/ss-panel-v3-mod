@@ -195,7 +195,7 @@
 														<p>小白方案：<br>
 														1.请确保你的系统不是WinXP，XP用户请参考下方的XP方案<br>
 														2.点击下载<a href="https://coding.net/u/ssr233/p/chromedoufu/git/raw/master/ChromeDoufu.7z">谷歌浏览器麻婆豆腐定制版</a>，解压<br>
-														3.下载你的<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">专属配置文件</a><br>
+														3.下载你的<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1&snippet=https://github.com/doufu001/doufu001/raw/master/clash.yml">专属配置文件</a><br>
 														4.将刚才下载的config.yml复制到ChromeDoufu文件夹内，务必确保Chrome.exe和config.yml在同一文件夹<br>
 														5.运行Chrome.exe即可</p>
 														<p>一般方案：<br>
