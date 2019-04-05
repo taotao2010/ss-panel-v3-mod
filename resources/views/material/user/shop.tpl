@@ -15,7 +15,7 @@
 	<main class="content">
 		<div class="content-header ui-content-header">
 			<div class="container">
-				<h1 class="content-heading">兑换套餐/流量</h1>
+				<h1 class="content-heading">兑换流量</h1>
 			</div>
 		</div>
 		<div class="container">
@@ -25,8 +25,8 @@
 					<div class="card">
 						<div class="card-main">
 							<div class="card-inner">
-								<p>午安币可兑换等值233积分，详见首页公告</p>
-								<p>当前233积分余额：{$user->money}</p>
+								<p>午安果可兑换豆腐积分，详见首页公告</p>
+								<p>当前豆腐积分余额：{$user->money}</p>
 							</div>
 						</div>
 					</div>

@@ -31,7 +31,7 @@
 									<div class="card-inner">
 										<p class="card-heading">活动码</p>
 										<p>活动码为活动发放，无法购买</p>
-										<p>当前233积分余额：{$user->money}</p>
+										<p>当前豆腐积分余额：{$user->money}</p>
 										<div class="form-group form-group-label">
 											<label class="floating-label" for="code">充值码</label>
 											<input class="form-control" id="code" type="text">

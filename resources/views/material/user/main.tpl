@@ -284,13 +284,7 @@
 									<i class="icon icon-lg">router</i>&nbsp;节点列表
 								</a>
 							</li>
-							
-							<li>
-								<a href="/user/relay">
-									<i class="icon icon-lg">compare_arrows</i>&nbsp;中转规则
-								</a>
-							</li>
-							
+						
 							<li>
 								<a href="/user/trafficlog">
 									<i class="icon icon-lg">traffic</i>&nbsp;流量记录
@@ -307,7 +301,7 @@
 						
 							<li>
 								<a href="/user/shop">
-									<i class="icon icon-lg">shop</i>&nbsp;兑换套餐/流量
+									<i class="icon icon-lg">shop</i>&nbsp;兑换流量
 								</a>
 							</li>
 							
