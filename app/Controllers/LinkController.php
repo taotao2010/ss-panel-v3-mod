@@ -368,19 +368,19 @@ class LinkController extends BaseController
             $proxy_name .= ",".$item['remark'];
         }
 
-        return '# update: 2019.2.1
+        return '# update: 2019.4.5
 		
 [General]
 
 bypass-system = true
 skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, e.crashlytics.com, captive.apple.com
 bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
-dns-server = 119.29.29.29, 223.5.5.5, 114.114.114.114
+dns-server = 
 
 [Proxy]
 '.$proxy_group.'
 [Proxy Group]
-PROXY = select, 节点1, 节点2, 节点3, 节点4
+PROXY = select, 节点1, 节点2, 节点3, 节点4, 节点5, 节点6
 
 [Rule]
 
@@ -398,6 +398,9 @@ DOMAIN-SUFFIX,google.cn,DIRECT
 DOMAIN-SUFFIX,google-analytics.com,DIRECT
 DOMAIN-SUFFIX,googletagmanager.com,DIRECT
 
+# google scholar
+DOMAIN-KEYWORD,scholar,PROXY,force-remote-dns
+
 # youtube
 DOMAIN-SUFFIX,googlevideo.com,PROXY,force-remote-dns
 
@@ -413,7 +416,6 @@ DOMAIN-SUFFIX,wikimedia.org,节点2,force-remote-dns
 DOMAIN-KEYWORD,pinterest,节点2,force-remote-dns
 DOMAIN-SUFFIX,pinimg.com,节点2,force-remote-dns
 DOMAIN-KEYWORD,github,节点2,force-remote-dns
-DOMAIN-KEYWORD,telegram,节点2,force-remote-dns
 DOMAIN-SUFFIX,mgoon.com,节点2
 DOMAIN-SUFFIX,vidmix.tv,节点2
 DOMAIN-SUFFIX,wecandeo.com,节点2
@@ -434,7 +436,20 @@ DOMAIN-SUFFIX,ytimg.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,fbcdn.net,PROXY,force-remote-dns
 DOMAIN-SUFFIX,twimg.com,PROXY,force-remote-dns
 DOMAIN-KEYWORD,tumblr,PROXY,force-remote-dns
+DOMAIN-SUFFIX,snapchat.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,piring.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,akamai.net,PROXY,force-remote-dns
+DOMAIN-SUFFIX,akamaihd.net,PROXY,force-remote-dns
+
+# ip-cidr
+IP-CIDR,91.108.56.0/22,PROXY,no-resolve
+IP-CIDR,91.108.4.0/22,PROXY,no-resolve
+IP-CIDR,109.239.140.0/24,PROXY,no-resolve
+IP-CIDR,149.154.160.0/20,PROXY,no-resolve
+IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,172.16.0.0/12,DIRECT
+IP-CIDR,127.0.0.0/8,DIRECT
 
 # final
 GEOIP,JP,节点4
@@ -443,7 +458,8 @@ FINAL,PROXY
 
 [URL Rewrite]
 
-^https?://(www.)?(g|google).cn https://www.google.com 302
+^http://(www.)?g.cn https://www.google.com 302
+^http://(www.)?google.cn https://www.google.com 302
 ';
 
     }
