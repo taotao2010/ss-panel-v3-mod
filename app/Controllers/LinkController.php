@@ -421,21 +421,21 @@ DOMAIN-KEYWORD,scholar,PROXY,force-remote-dns
 DOMAIN-KEYWORD,youtube,PROXY,force-remote-dns
 DOMAIN-SUFFIX,googlevideo.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,ytimg.com,PROXY,force-remote-dns
-DOMAIN-SUFFIX,youtu.be,Proxy,force-remote-dns
+DOMAIN-SUFFIX,youtu.be,PROXY,force-remote-dns
 DOMAIN-SUFFIX,fbcdn.net,PROXY,force-remote-dns
 DOMAIN-SUFFIX,twimg.com,PROXY,force-remote-dns
-DOMAIN-KEYWORD,dropbox,Proxy,force-remote-dns
-DOMAIN-SUFFIX,twitch.tv,Proxy,force-remote-dns
-DOMAIN,hls.itunes.apple.com,Proxy
-DOMAIN,itunes.apple.com,Proxy
-DOMAIN,itunes.com,Proxy
+DOMAIN-KEYWORD,dropbox,PROXY,force-remote-dns
+DOMAIN-SUFFIX,twitch.tv,PROXY,force-remote-dns
+DOMAIN,hls.itunes.apple.com,PROXY
+DOMAIN,itunes.apple.com,PROXY
+DOMAIN,itunes.com,PROXY
 DOMAIN-SUFFIX,piring.com,PROXY
-IP-CIDR,91.108.56.0/22,Proxy,no-resolve
-IP-CIDR,91.108.4.0/22,Proxy,no-resolve
-IP-CIDR,91.108.8.0/22,Proxy,no-resolve
-IP-CIDR,109.239.140.0/24,Proxy,no-resolve
-IP-CIDR,149.154.160.0/20,Proxy,no-resolve
-IP-CIDR,149.154.164.0/22,Proxy,no-resolve
+IP-CIDR,91.108.56.0/22,PROXY,no-resolve
+IP-CIDR,91.108.4.0/22,PROXY,no-resolve
+IP-CIDR,91.108.8.0/22,PROXY,no-resolve
+IP-CIDR,109.239.140.0/24,PROXY,no-resolve
+IP-CIDR,149.154.160.0/20,PROXY,no-resolve
+IP-CIDR,149.154.164.0/22,PROXY,no-resolve
 
 # s2
 DOMAIN-KEYWORD,google,节点2,force-remote-dns
