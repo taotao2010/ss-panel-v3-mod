@@ -10,7 +10,7 @@
 							<div class="card-main">
 								<div class="card-header">
 									<div class="card-inner">
-										<h1 class="card-heading">重置密码</h1>
+										<h1 class="card-heading">重置密码（逗你玩的）</h1>
 									</div>
 								</div>
 								<div class="card-inner">
@@ -34,7 +34,7 @@
 										<div class="form-group">
 											<div class="row">
 												<div class="col-md-10 col-md-push-1">
-													<button id="reset" type="submit" class="btn btn-block btn-brand waves-attach waves-light">重置密码</button>
+													<button id="reset" type="submit" class="btn btn-block btn-brand waves-attach waves-light">重置密码（能收到才有鬼）</button>
 												</div>
 											</div>
 										</div>
