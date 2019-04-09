@@ -387,23 +387,55 @@ PROXY = select, 节点1, 节点2, 节点3, 节点4, 节点5, 节点6
 [Rule]
 
 # direct
+DOMAIN-SUFFIX,local,DIRECT
+IP-CIDR,127.0.0.0/8,DIRECT
+IP-CIDR,172.16.0.0/12,DIRECT
+IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,17.0.0.0/8,DIRECT
+IP-CIDR,100.64.0.0/10,DIRECT
 DOMAIN-SUFFIX,baidu.com,DIRECT
+DOMAIN-SUFFIX,bdimg.com,DIRECT
+DOMAIN-SUFFIX,bdstatic.com,DIRECT
 DOMAIN-SUFFIX,alipay.com,DIRECT
 DOMAIN-SUFFIX,taobao.com,DIRECT
+DOMAIN-KEYWORD,alicdn,DIRECT
 DOMAIN-SUFFIX,tmall.com,DIRECT
+DOMAIN-SUFFIX,amap.com,DIRECT
+DOMAIN-SUFFIX,youku.com,DIRECT
 DOMAIN-SUFFIX,qq.com,DIRECT
+USER-AGENT,MicroMessenger Client,DIRECT
+USER-AGENT,WeChat*,DIRECT
 DOMAIN-KEYWORD,ptlogin2,DIRECT
 DOMAIN-SUFFIX,jd.com,DIRECT
+DOMAIN-SUFFIX,iqiyi.com,DIRECT
+DOMAIN-SUFFIX,zhihu.com,DIRECT
+DOMAIN-SUFFIX,bilibili.com,DIRECT
 DOMAIN-SUFFIX,weibo.com,DIRECT
 DOMAIN-SUFFIX,google.cn,DIRECT
 DOMAIN-SUFFIX,google-analytics.com,DIRECT
 DOMAIN-SUFFIX,googletagmanager.com,DIRECT
 
-# google scholar
+# s1
 DOMAIN-KEYWORD,scholar,PROXY,force-remote-dns
-
-# youtube
+DOMAIN-KEYWORD,youtube,PROXY,force-remote-dns
 DOMAIN-SUFFIX,googlevideo.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,ytimg.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,youtu.be,Proxy,force-remote-dns
+DOMAIN-SUFFIX,fbcdn.net,PROXY,force-remote-dns
+DOMAIN-SUFFIX,twimg.com,PROXY,force-remote-dns
+DOMAIN-KEYWORD,dropbox,Proxy,force-remote-dns
+DOMAIN-SUFFIX,twitch.tv,Proxy,force-remote-dns
+DOMAIN,hls.itunes.apple.com,Proxy
+DOMAIN,itunes.apple.com,Proxy
+DOMAIN,itunes.com,Proxy
+DOMAIN-SUFFIX,piring.com,PROXY
+IP-CIDR,91.108.56.0/22,Proxy,no-resolve
+IP-CIDR,91.108.4.0/22,Proxy,no-resolve
+IP-CIDR,91.108.8.0/22,Proxy,no-resolve
+IP-CIDR,109.239.140.0/24,Proxy,no-resolve
+IP-CIDR,149.154.160.0/20,Proxy,no-resolve
+IP-CIDR,149.154.164.0/22,Proxy,no-resolve
 
 # s2
 DOMAIN-KEYWORD,google,节点2,force-remote-dns
@@ -417,11 +449,8 @@ DOMAIN-SUFFIX,wikimedia.org,节点2,force-remote-dns
 DOMAIN-KEYWORD,pinterest,节点2,force-remote-dns
 DOMAIN-SUFFIX,pinimg.com,节点2,force-remote-dns
 DOMAIN-KEYWORD,github,节点2,force-remote-dns
-DOMAIN-SUFFIX,mgoon.com,节点2
-DOMAIN-SUFFIX,vidmix.tv,节点2
-DOMAIN-SUFFIX,wecandeo.com,节点2
-DOMAIN-SUFFIX,jkforum.net,节点2
 DOMAIN-KEYWORD,sci-hub,节点2
+DOMAIN-SUFFIX,jkforum.net,节点2
 
 # s3
 DOMAIN-SUFFIX,netflix.com,节点3
@@ -431,39 +460,14 @@ DOMAIN-KEYWORD,nflx,节点3
 DOMAIN-KEYWORD,dmm,节点4
 DOMAIN-KEYWORD,line,节点4
 
-# force-remote-dns
-DOMAIN-KEYWORD,youtube,PROXY,force-remote-dns
-DOMAIN-SUFFIX,ytimg.com,PROXY,force-remote-dns
-DOMAIN-SUFFIX,fbcdn.net,PROXY,force-remote-dns
-DOMAIN-SUFFIX,twimg.com,PROXY,force-remote-dns
-DOMAIN-KEYWORD,tumblr,PROXY,force-remote-dns
-DOMAIN-SUFFIX,snapchat.com,PROXY,force-remote-dns
-DOMAIN-SUFFIX,piring.com,PROXY,force-remote-dns
-DOMAIN-SUFFIX,akamai.net,PROXY,force-remote-dns
-DOMAIN-SUFFIX,akamaihd.net,PROXY,force-remote-dns
-
-# ip-cidr
-IP-CIDR,91.108.56.0/22,Proxy,no-resolve
-IP-CIDR,91.108.4.0/22,Proxy,no-resolve
-IP-CIDR,91.108.8.0/22,Proxy,no-resolve
-IP-CIDR,109.239.140.0/24,Proxy,no-resolve
-IP-CIDR,149.154.160.0/20,Proxy,no-resolve
-IP-CIDR,149.154.164.0/22,Proxy,no-resolve
-
-# lan
-DOMAIN-SUFFIX,local,DIRECT
-IP-CIDR,127.0.0.0/8,DIRECT
-IP-CIDR,172.16.0.0/12,DIRECT
-IP-CIDR,192.168.0.0/16,DIRECT
-IP-CIDR,10.0.0.0/8,DIRECT
-IP-CIDR,17.0.0.0/8,DIRECT
-IP-CIDR,100.64.0.0/10,DIRECT
-
-# geoip
-GEOIP,JP,节点4
-GEOIP,CN,DIRECT
+# s5
+DOMAIN-SUFFIX,mgoon.com,节点5
+DOMAIN-SUFFIX,vidmix.tv,节点5
+DOMAIN-SUFFIX,wecandeo.com,节点5
 
 # final
+GEOIP,JP,节点4
+GEOIP,CN,DIRECT
 FINAL,PROXY
 
 [URL Rewrite]
@@ -471,6 +475,7 @@ FINAL,PROXY
 ^https?://(www.)?(g|google).cn https://www.google.com 302
 
 [REWRITE]
+
 ^https?://(www.)?(g|google).cn url 302 https://www.google.com
 ';
 
