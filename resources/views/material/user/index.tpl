@@ -222,7 +222,7 @@
 														3.下载你的<a href="https://clash.doufu001.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">专属配置文件</a><br>
 														4.将刚才下载的config.yml复制到Clash文件夹内，务必确保clash-windows-386.exe和config.yml在同一文件夹<br>
 														5.运行start.bat<br>
-														6.打开IE浏览器，工具-Internet选项-连接-局域网设置，选中里面的代理服务器，地址填127.0.0.1，端口填8888，然后使用除火狐外的任何浏览器即可</p>
+														6.打开IE浏览器，工具-Internet选项-连接-局域网设置，选中里面的代理服务器，地址填127.0.0.1，端口填7890，然后使用除火狐外的任何浏览器即可</p>
 														<p>游戏方案：<br>
 														1.下载并安装<a href="https://static.doufu001.com/shadowsocks/SSTap-setup.exe">SSTap</a>，安装过程中要安装一个驱动<br>
 														2.启动SSTap。点击代理旁边的加号，选择“通过SS/SSR链接批量添加代理”<br>
