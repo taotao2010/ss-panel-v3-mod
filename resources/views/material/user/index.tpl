@@ -215,7 +215,7 @@
 														5.将下载下来的config.yml和Country.mmdb复制进这个文件夹<br>
 														6.回到Clash主目录，运行Clash for Windows.exe<br>
 														7.下载<a href="https://static.doufu001.com/browser/CentDoufu.7z">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe<br>
-														8.点击浏览器右上角第一个的圆圈图标，选择“clash/v2ray模式”</p>
+														8.点击浏览器右上角第一个的圆圈图标，选择“Clash模式”</p>
 														<p>XP方案：<br>
 														1.使用本方案后，请务必保证clash客户端处于运行状态，关闭clash后将无法上网！<br>
 														2.点击下载<a href="https://static.doufu001.com/shadowsocks/clash.7z">Clash</a>，解压<br>
