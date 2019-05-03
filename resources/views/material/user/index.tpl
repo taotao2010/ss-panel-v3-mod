@@ -196,35 +196,35 @@
 														<p>理解能力较差的用户请参考小白方案，普通用户请参考一般方案，极客用户请参考进阶方案，XP系统用户请参考XP方案，需要玩外服网游的请参考游戏方案。</p>
 														<p>小白方案：<br>
 														1.请确保你的系统不是WinXP，XP用户请参考下方的XP方案<br>
-														2.点击下载<a href="https://coding.net/u/ssr233/p/chromedoufu/git/raw/master/ChromeDoufu.7z">谷歌浏览器麻婆豆腐定制版</a>，解压<br>
-														3.下载你的<a href="https://clash.doufu001.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1&snippet=https://github.com/doufu001/doufu001/raw/master/clash.yml">专属配置文件</a><br>
+														2.点击下载<a href="https://static.doufu001.com/browser/ChromeDoufu.7z">谷歌浏览器麻婆豆腐定制版</a>，解压<br>
+														3.下载你的<a href="https://clash.doufu001.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">专属配置文件</a><br>
 														4.将刚才下载的config.yml复制到ChromeDoufu文件夹内，务必确保Chrome.exe和config.yml在同一文件夹<br>
 														5.运行Chrome.exe即可</p>
 														<p>一般方案：<br>
 														1.SS客户端依赖.net 4.6.2，Win10 1607开始已经集成，如果系统低于Win10 1607（包括Win7 SP1、Win8.1、Win10 1507、Win10 1511），请下载并安装<a href="https://download.microsoft.com/download/F/9/4/F942F07D-F26F-4F30-B4E3-EBD54FABA377/NDP462-KB3151800-x86-x64-AllOS-ENU.exe">.net 4.6.2环境</a><br>
-														2.点击下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/Shadowsocks.7z">SS客户端</a>，解压<br>
+														2.点击下载<a href="https://static.doufu001.com/shadowsocks/Shadowsocks.7z">SS客户端</a>，解压<br>
 														3.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的Shadowsocks文件夹里<br>
 														4.运行Shadowsocks.exe<br>
-														5.下载<a href="https://coding.net/u/ssr233/p/centdoufu/git/raw/master/CentDoufu.7z">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe即可</p>
+														5.下载<a href="https://static.doufu001.com/browser/CentDoufu.7z">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe即可</p>
 														6.后续使用代理需同时开启Shadowsocks（建议设置开机自启）</p>
 														<p>进阶方案：<br>
-														1.到<a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">这里</a>下载Clash for Windows，注意下载zip版本，不要下载exe版<br>
-														2.下载<a href="https://clash.doufu001.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1&snippet=https://github.com/doufu001/doufu001/raw/master/clash.yml">配置文件</a><br>
+														1.点击下载<a href="https://static.doufu001.com/shadowsocks/Clash.for.Windows.zip">Clash for Windows</a><br>
+														2.下载<a href="https://clash.doufu001.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">配置文件</a><br>
 														3.下载<a href="https://raw.githubusercontent.com/Fndroid/clash_for_windows_pkg/master/Country.mmdb">Country.mmdb数据库</a><br>
 														4.解压Clash到一个文件夹内，进入该文件夹，依次进入/resources/static/files/文件夹<br>
 														5.将下载下来的config.yml和Country.mmdb复制进这个文件夹<br>
 														6.回到Clash主目录，运行Clash for Windows.exe<br>
-														7.下载<a href="https://coding.net/u/ssr233/p/centdoufu/git/raw/master/CentDoufu.7z">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe<br>
+														7.下载<a href="https://static.doufu001.com/browser/CentDoufu.7z">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe<br>
 														8.点击浏览器右上角第一个的圆圈图标，选择“clash/v2ray模式”</p>
 														<p>XP方案：<br>
 														1.使用本方案后，请务必保证clash客户端处于运行状态，关闭clash后将无法上网！<br>
-														2.点击下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/clash.7z">Clash</a>，解压<br>
-														3.下载你的<a href="https://clash.doufu001.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1&snippet=https://github.com/doufu001/doufu001/raw/master/clash.yml">专属配置文件</a><br>
+														2.点击下载<a href="https://static.doufu001.com/shadowsocks/clash.7z">Clash</a>，解压<br>
+														3.下载你的<a href="https://clash.doufu001.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">专属配置文件</a><br>
 														4.将刚才下载的config.yml复制到Clash文件夹内，务必确保clash-windows-386.exe和config.yml在同一文件夹<br>
 														5.运行start.bat<br>
 														6.打开IE浏览器，工具-Internet选项-连接-局域网设置，选中里面的代理服务器，地址填127.0.0.1，端口填8888，然后使用除火狐外的任何浏览器即可</p>
 														<p>游戏方案：<br>
-														1.下载并安装<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/SSTap-setup.exe">SSTap</a>，安装过程中要安装一个驱动<br>
+														1.下载并安装<a href="https://static.doufu001.com/shadowsocks/SSTap-setup.exe">SSTap</a>，安装过程中要安装一个驱动<br>
 														2.启动SSTap。点击代理旁边的加号，选择“通过SS/SSR链接批量添加代理”<br>
 														3.右键点击<a href="{$ss_url_all}">这个链接</a>，选择“复制链接地址”，粘贴到对话框中<br>
 														4.将“模式”改成“不代理中国IP”<br>
@@ -234,13 +234,13 @@
 														<p>普通用户请参考一般方案，高级玩家请参考进阶方案。</p>
 														<p>一般方案：<br>
 														1.请确保你的系统版本是10.11或更高<br>
-														2.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/ShadowsocksX-NG.zip">SS客户端</a>，解压，拖到应用程序里<br>
+														2.下载<a href="https://static.doufu001.com/shadowsocks/ShadowsocksX-NG.zip">SS客户端</a>，解压，拖到应用程序里<br>
 														3.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a><br>
 														4.运行ShdowsocksX-NG，第一次打开要输入一次系统密码<br>
 														5.在右上角的纸飞机上点右键，点击“服务器”-“导入服务器配置文件”，选中你刚刚下载的gui-config.json文件</p>
 														<p>进阶方案：<br>
-														1.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/ClashX.dmg">ClashX</a>，安装<br>
-														2.右键复制<a href="https://clash.doufu001.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1&snippet=https://github.com/doufu001/doufu001/raw/master/clash.yml">这个链接</a><br>
+														1.下载<a href="https://static.doufu001.com/shadowsocks/ClashX.dmg">ClashX</a>，安装<br>
+														2.右键复制<a href="https://clash.doufu001.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
 														3.运行ClashX，第一次要输入系统密码<br>
 														4.在右上角ClashX图标上选择“配置”-“托管配置”-“设置地址”<br>
 														5.将刚才复制的那串链接填进去，点击“OK”，会提示update success<br>
@@ -279,7 +279,7 @@
 														<p>小白方案：<br>
 														1.请确保你的系统版本是4.1或更高<br>
 														2.请确保当前页面是由系统自带浏览器打开，切记不要在微信内打开本页面<br>
-														3.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/BifrostV.apk">BifrostV客户端</a>，安装<br>
+														3.下载<a href="https://static.doufu001.com/shadowsocks/BifrostV.apk">BifrostV客户端</a>，安装<br>
 														4.长按<a href="{$ss_url_all}">这个链接</a>（不是点击，是长按！），选择“复制链接”<br>
 														5.打开安装好的BifrostV，点右上角的加号，选择“导入”-“从剪贴板导入”<br>
 														6.选中一个节点（如节点1）<br>
@@ -287,14 +287,14 @@
 														<p>一般方案：<br>
 														1.请确保你的系统版本是5.0或更高<br>
 														2.请确保当前页面是由系统自带浏览器打开，切记不要在微信内打开本页面<br>
-														3.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/shadowsocks.apk">SS客户端</a>，安装<br>
+														3.下载<a href="https://static.doufu001.com/shadowsocks/shadowsocks.apk">SS客户端</a>，安装<br>
 														4.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>（不是点击，是长按！），选择“复制链接”<br>
 														5.打开安装好的Shadowsocks，点右上角的加号，选择“从剪贴板导入”<br>
 														5.选中一个节点（如节点1，自带的198开头的节点是假的！）<br>
 														6.点击节点最右侧的编辑按钮（铅笔状），找到“路由”，选择“绕过局域网及中国大陆地址”，点右上角的对勾保存（此步骤每个节点都需要操作一次）<br>
 														7.点击主界面下方的开关，第一次需要授权VPN权限</p>
 														<p>进阶方案：<br>
-														1.下载<a href="https://coding.net/u/ssr233/p/ss/git/raw/master/surfboard.apk">Surfboard客户端</a>，安装<br>
+														1.下载<a href="https://static.doufu001.com/shadowsocks/surfboard.apk">Surfboard客户端</a>，安装<br>
 														2.在手机浏览器中长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
 														3.运行Surfboard，账号为mpdf0001@gmail.com，密码为12345678<br>
 														4.进入底部第三个Profile标签，点加号，选择第一个Download from url，里面会出现刚才复制的那个地址，点DOWNLOAD<br>
